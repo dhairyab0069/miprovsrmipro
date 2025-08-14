@@ -1,0 +1,647 @@
+{
+  "optimization_method": "MIPROv2",
+  "best_params": {
+    "instruction_quality": 0.8018462015545829,
+    "routing_quality": 0.9269758120144195,
+    "agent_specialization": 0.9306511672247081
+  },
+  "best_performance": 0.6724393925925927,
+  "final_accuracy": 0.5902777777777778,
+  "final_latency_ms": 3400.1624584198,
+  "total_cost": 0.0218895,
+  "total_time_seconds": 298.0709629058838,
+  "trials_used": 30,
+  "agent_performance": {
+    "tech_agent": {
+      "success_rate": 0.16666666666666666,
+      "avg_accuracy": 0.5085648148148149,
+      "avg_latency_ms": 3396.7667718728385,
+      "total_cost": 0.012667999999999997,
+      "queries_handled": 48
+    },
+    "billing_agent": {
+      "success_rate": 0.25,
+      "avg_accuracy": 0.579375,
+      "avg_latency_ms": 2750.868499279022,
+      "total_cost": 0.004508499999999999,
+      "queries_handled": 20
+    },
+    "general_agent": {
+      "success_rate": 0.5555555555555556,
+      "avg_accuracy": 0.6242798353909464,
+      "avg_latency_ms": 2961.812867058648,
+      "total_cost": 0.006039500000000001,
+      "queries_handled": 27
+    }
+  },
+  "optimization_history": [
+    {
+      "params": {
+        "instruction_quality": 0.5438057236800908,
+        "routing_quality": 1.0,
+        "agent_specialization": 0.98198367015892
+      },
+      "performance": 0.6511482962962963,
+      "accuracy": 0.6282407407407408,
+      "latency_ms": 3775.880972544352,
+      "cost": 0.00074,
+      "success_rate": 1.0,
+      "trial_time": 11.328933954238892,
+      "results": [
+        {
+          "scenario_id": 3,
+          "agent_id": "general_agent",
+          "response": "The Pro and Enterprise plans are designed to cater to different needs and organizational sizes. Here\u2019s a brief overview of the key differences:\n\n**Pro Plan:**\n- Ideal for small to medium-sized businesses.\n- Offers core features that include [list a few core features, e.g., advanced analytics, priority support, etc.].\n- Typically has a user limit, making it suitable for teams that do not require extensive customization or a large number of users.\n- More affordable, which is great for businesses looking to manage their budget while still accessing powerful tools.\n\n**Enterprise Plan:**\n- Tailored for larger organizations or those with more complex needs.\n- Includes",
+          "accuracy": 0.7222222222222222,
+          "metrics": {
+            "latency_ms": 2865.8690452575684,
+            "tokens_used": 187,
+            "cost": 0.0002235,
+            "success": true
+          }
+        },
+        {
+          "scenario_id": 1,
+          "agent_id": "tech_agent",
+          "response": "The error code **0x80004005** is a generic error code that often indicates an unspecified failure, which can arise from a variety of issues. When dealing with PDF export crashes, there are several potential avenues to explore. Below are detailed troubleshooting steps to help you diagnose and resolve the issue:\n\n### 1. **Check for Updates**\nEnsure that your application, as well as any associated libraries or frameworks (like PDF generation libraries), are fully up to date. Outdated components can often lead to compatibility issues.\n\n### 2. **Inspect the Application Logs**\nReview the application logs for any specific error messages or stack traces when the PDF export fails. This can provide insights into what exactly is causing the crash.\n\n### 3. **Verify",
+          "accuracy": 0.6,
+          "metrics": {
+            "latency_ms": 3289.0517711639404,
+            "tokens_used": 218,
+            "cost": 0.000259,
+            "success": true
+          }
+        },
+        {
+          "scenario_id": 4,
+          "agent_id": "tech_agent",
+          "response": "Integrating our API with your Python application to sync user data involves several steps. Below, I've outlined a detailed guide to help you through the process.\n\n### Step 1: API Documentation\n\nBefore you start, ensure you have access to our API documentation. This will provide you with essential information about the endpoints, request methods, authentication, and the data format required. \n\n### Step 2: Set Up Your Python Environment\n\n1. **Install Required Libraries**:\n   To interact with our API, you\u2019ll likely need the `requests` library. If you haven't already, install it using pip:\n\n   ```bash\n   pip install requests\n   ```\n\n2. **Import Libraries**:\n   In your Python script, import the necessary libraries:\n\n",
+          "accuracy": 0.5625,
+          "metrics": {
+            "latency_ms": 5172.722101211548,
+            "tokens_used": 215,
+            "cost": 0.0002575,
+            "success": true
+          }
+        }
+      ]
+    },
+    {
+      "params": {
+        "instruction_quality": 0.6448347826756404,
+        "routing_quality": 1.0,
+        "agent_specialization": 0.8178475283075254
+      },
+      "performance": 0.5946669148148148,
+      "accuracy": 0.4870370370370371,
+      "latency_ms": 3493.154287338257,
+      "cost": 0.0007395,
+      "success_rate": 1.0,
+      "trial_time": 10.480309963226318,
+      "results": [
+        {
+          "scenario_id": 5,
+          "agent_id": "tech_agent",
+          "response": "I truly apologize for the delay you\u2019ve experienced in receiving support. I understand how frustrating it can be, especially as a paid customer. I appreciate your patience, and I\u2019m here to assist you promptly.\n\nTo expedite the resolution of your issue, please provide me with the following details:\n\n1. **Description of the Issue**: Please elaborate on the specific problem you\u2019re encountering. Any error messages or unexpected behavior you\u2019ve observed will be particularly helpful.\n\n2. **Steps to Reproduce**: If applicable, outline the steps that lead to the issue. This will aid us in replicating the problem on our end.\n\n3. **Environment Details**: Please include information about your setup, such as:\n   - The platform you are using (e",
+          "accuracy": 0.25,
+          "metrics": {
+            "latency_ms": 3207.0178985595703,
+            "tokens_used": 214,
+            "cost": 0.000257,
+            "success": true
+          }
+        },
+        {
+          "scenario_id": 3,
+          "agent_id": "general_agent",
+          "response": "Hello! I'd be happy to help you with that.\n\nThe Pro and Enterprise plans are designed to cater to different needs, and here are the main differences:\n\n1. **Features**: The Pro plan typically includes essential features suitable for small to medium-sized businesses, such as advanced analytics, collaboration tools, and integrations with popular applications. The Enterprise plan, on the other hand, offers more comprehensive features, which may include enhanced security measures, custom integrations, and additional analytics capabilities tailored for larger organizations.\n\n2. **User Limit**: The Pro plan usually has a user limit that accommodates a smaller team, while the Enterprise plan is designed for larger teams and",
+          "accuracy": 0.6111111111111112,
+          "metrics": {
+            "latency_ms": 4041.844129562378,
+            "tokens_used": 187,
+            "cost": 0.0002235,
+            "success": true
+          }
+        },
+        {
+          "scenario_id": 1,
+          "agent_id": "tech_agent",
+          "response": "The error code 0x80004005 is a generic error that often indicates an \"unspecified error\" in Windows environments. This can arise from various factors, such as permissions, file access issues, or problems with the libraries your application uses to generate PDFs. Here\u2019s a systematic approach to diagnose and resolve this issue:\n\n### 1. Check Permissions\nEnsure that the application has the necessary permissions to write to the directory where PDFs are being exported. If running the application on Windows, right-click on the folder and check the security settings:\n- Navigate to the folder where the PDFs are being exported.\n- Right-click and select **Properties**.\n- Go to the **Security** tab and ensure that the user account running the application has **Modify",
+          "accuracy": 0.6,
+          "metrics": {
+            "latency_ms": 3230.6008338928223,
+            "tokens_used": 218,
+            "cost": 0.000259,
+            "success": true
+          }
+        }
+      ]
+    },
+    {
+      "params": {
+        "instruction_quality": 0.8981459245514138,
+        "routing_quality": 0.98533833955961,
+        "agent_specialization": 0.9560382968286435
+      },
+      "performance": 0.6192848444444445,
+      "accuracy": 0.548611111111111,
+      "latency_ms": 3139.6854718526206,
+      "cost": 0.000798,
+      "success_rate": 1.0,
+      "trial_time": 9.419935941696167,
+      "results": [
+        {
+          "scenario_id": 4,
+          "agent_id": "tech_agent",
+          "response": "Integrating an API with your Python application to sync user data involves several steps. Below, I've outlined a comprehensive approach to help you accomplish this efficiently.\n\n### Step 1: Obtain API Documentation\nBefore you begin coding, ensure you have access to the API documentation provided by the service. This document will contain essential details about endpoints, authentication methods, request/response formats, and rate limits.\n\n### Step 2: Set Up Your Environment\nMake sure you have Python installed on your system along with the `requests` library, which simplifies making HTTP requests. If you haven't already installed it, you can do so using pip:\n\n```bash\npip install requests\n```\n\n### Step 3: Authentication\nMost APIs require some form of authentication, typically",
+          "accuracy": 0.5625,
+          "metrics": {
+            "latency_ms": 3014.644145965576,
+            "tokens_used": 261,
+            "cost": 0.0002805,
+            "success": true
+          }
+        },
+        {
+          "scenario_id": 2,
+          "agent_id": "billing_agent",
+          "response": "I\u2019m really sorry to hear that you've been charged twice for your subscription. I understand how frustrating this can be. Let's get this sorted out for you.\n\nTo begin, I will need to investigate the charges associated with both Order #A1234 and Order #A1235. Here\u2019s what we can do:\n\n1. **Confirm the Charges**: Please check your bank statement or payment method to see the exact amounts charged for both orders. This will help us identify the duplicate charge.\n\n2. **Refund Process**: If the charges are indeed duplicates, I can initiate a refund for the extra",
+          "accuracy": 0.6666666666666666,
+          "metrics": {
+            "latency_ms": 3030.996084213257,
+            "tokens_used": 235,
+            "cost": 0.00023749999999999997,
+            "success": true
+          }
+        },
+        {
+          "scenario_id": 5,
+          "agent_id": "tech_agent",
+          "response": "I understand your frustration regarding the delay in support response, especially as a paid customer. I sincerely apologize for the inconvenience this has caused you. We value your business and want to ensure you receive the assistance you need promptly.\n\nTo expedite the resolution of your issue, please provide me with the following details:\n\n1. **Description of the Issue**: A brief explanation of the problem you\u2019re experiencing.\n2. **Error Messages**: If applicable, please include any error messages or codes you\u2019ve encountered.\n3. **Steps Taken**: A summary of the troubleshooting steps you\u2019ve already attempted.\n4. **Account Information**: Your account name or ID associated with the service, so I can look into it directly.\n\nOnce I have this information, I",
+          "accuracy": 0.4166666666666667,
+          "metrics": {
+            "latency_ms": 3373.4161853790283,
+            "tokens_used": 260,
+            "cost": 0.00028,
+            "success": true
+          }
+        }
+      ]
+    },
+    {
+      "params": {
+        "instruction_quality": 0.6355148241375224,
+        "routing_quality": 0.9655451919797516,
+        "agent_specialization": 1.0
+      },
+      "performance": 0.6170772222222223,
+      "accuracy": 0.5430555555555555,
+      "latency_ms": 2986.7870807647705,
+      "cost": 0.0007250000000000001,
+      "success_rate": 1.0,
+      "trial_time": 8.96106505393982,
+      "results": [
+        {
+          "scenario_id": 1,
+          "agent_id": "tech_agent",
+          "response": "Error code 0x80004005 is a generic error that can indicate various issues, often related to permissions, configuration, or file access problems. Here\u2019s a detailed approach to troubleshoot and resolve the issue you are encountering when trying to export PDFs.\n\n### Step 1: Check for Permissions Issues\n1. **User Permissions**: Ensure that the user account running the application has the necessary permissions to access the file system where the PDFs are being saved. This includes write permissions to the target directory.\n2. **Antivirus/Firewall**: Sometimes, security software can prevent applications from performing certain actions. Temporarily disable any antivirus or firewall software and check if the issue persists.\n\n### Step 2: Inspect Application Logs\n1. **Enable Logging",
+          "accuracy": 0.5333333333333333,
+          "metrics": {
+            "latency_ms": 3119.518280029297,
+            "tokens_used": 218,
+            "cost": 0.000259,
+            "success": true
+          }
+        },
+        {
+          "scenario_id": 4,
+          "agent_id": "tech_agent",
+          "response": "Integrating an API with your Python application to sync user data involves several steps, including setting up your environment, making API requests, and handling the response. Below, I'll provide a detailed guide to help you through this process.\n\n### Step 1: Setting Up Your Environment\n\n1. **Install Required Libraries**: Ensure you have the necessary libraries installed. The most commonly used library for making HTTP requests in Python is `requests`. If you don't have it installed, you can do so via pip:\n\n   ```bash\n   pip install requests\n   ```\n\n2. **API Documentation**: Before you start coding, refer to the API documentation. It will typically provide information on the endpoints, required parameters, authentication methods, and response formats.\n\n###",
+          "accuracy": 0.5625,
+          "metrics": {
+            "latency_ms": 3174.6230125427246,
+            "tokens_used": 215,
+            "cost": 0.0002575,
+            "success": true
+          }
+        },
+        {
+          "scenario_id": 2,
+          "agent_id": "billing_agent",
+          "response": "Hello! I\u2019m really sorry to hear that you were charged twice for your subscription. I can definitely help you with this issue. \n\nTo assist you further, I\u2019ll need to look into both orders, #A1234 and #A1235. It\u2019s possible that one of these charges was an error. \n\nCould you please confirm the email address linked to your account and if there are any specific details about the charges that you noticed? Once I have that information, I can work on resolving this for you and issuing a refund if necessary. Thank you for your patience!",
+          "accuracy": 0.5333333333333333,
+          "metrics": {
+            "latency_ms": 2666.21994972229,
+            "tokens_used": 185,
+            "cost": 0.00020850000000000003,
+            "success": true
+          }
+        }
+      ]
+    },
+    {
+      "params": {
+        "instruction_quality": 0.8018462015545829,
+        "routing_quality": 0.9269758120144195,
+        "agent_specialization": 0.9306511672247081
+      },
+      "performance": 0.6724393925925927,
+      "accuracy": 0.6814814814814815,
+      "latency_ms": 3326.866865158081,
+      "cost": 0.000766,
+      "success_rate": 1.0,
+      "trial_time": 9.981274843215942,
+      "results": [
+        {
+          "scenario_id": 1,
+          "agent_id": "tech_agent",
+          "response": "I'm sorry to hear that you're experiencing issues with your application crashing during PDF exports. The error code **0x80004005** typically indicates an \"unspecified error,\" which can arise from various underlying issues. Let's go through some steps to troubleshoot and resolve this problem.\n\n### Step 1: Check for Application Updates\nEnsure that your application is up to date. Software developers often release patches that fix known bugs.\n\n1. Open your application.\n2. Navigate to the **Help** or **About** section.\n3. Look for an option to check for updates and install any available updates.\n\n### Step 2: Review System Requirements\nConfirm that your system meets the minimum requirements for PDF export functionality. Insufficient memory or storage can lead to crashes",
+          "accuracy": 0.6,
+          "metrics": {
+            "latency_ms": 4152.150869369507,
+            "tokens_used": 264,
+            "cost": 0.000282,
+            "success": true
+          }
+        },
+        {
+          "scenario_id": 3,
+          "agent_id": "general_agent",
+          "response": "Hello! I'd be happy to help you understand the differences between the Pro and Enterprise plans.\n\n**Pro Plan:**\n- **Target Audience:** Ideal for small to medium-sized businesses or individual professionals.\n- **Features:** Typically includes essential tools and functionalities for productivity, collaboration, and basic analytics.\n- **User Limit:** Generally supports a limited number of users (often around 5-10).\n- **Support:** Usually offers standard support options such as email and chat during business hours.\n\n**Enterprise Plan:**\n- **Target Audience:** Designed for larger organizations with more complex needs.\n- **Features:** Includes all the Pro features plus advanced functionalities like custom integrations",
+          "accuracy": 0.7777777777777778,
+          "metrics": {
+            "latency_ms": 3169.0430641174316,
+            "tokens_used": 233,
+            "cost": 0.0002465,
+            "success": true
+          }
+        },
+        {
+          "scenario_id": 2,
+          "agent_id": "billing_agent",
+          "response": "I'm sorry to hear that you were charged twice for your subscription. I understand how frustrating that can be. \n\nTo help resolve this issue, I recommend the following steps:\n\n1. **Verify Charges**: Please check your bank statement or payment method to confirm both charges for order #A1234 and #A1235.\n\n2. **Refund Process**: If both charges are indeed for the same subscription, I can initiate a refund for one of the orders. Please confirm that you\u2019d like to proceed, and I will start that process for you.\n\n3. **Account Review**: If you",
+          "accuracy": 0.6666666666666666,
+          "metrics": {
+            "latency_ms": 2659.4066619873047,
+            "tokens_used": 235,
+            "cost": 0.00023749999999999997,
+            "success": true
+          }
+        }
+      ]
+    },
+    {
+      "params": {
+        "instruction_quality": 0.8566313532963983,
+        "routing_quality": 0.9306135576835989,
+        "agent_specialization": 0.9508504831973111
+      },
+      "performance": 0.5753870555555556,
+      "accuracy": 0.4388888888888889,
+      "latency_ms": 3756.2057177225747,
+      "cost": 0.0008424999999999999,
+      "success_rate": 1.0,
+      "trial_time": 11.269497871398926,
+      "results": [
+        {
+          "scenario_id": 5,
+          "agent_id": "tech_agent",
+          "response": "I understand your frustration regarding the delay in support response, especially as a paid customer. We strive to provide timely assistance, and I apologize for the inconvenience this has caused you. \n\nTo help expedite your issue, could you please provide me with the following information:\n\n1. **Account Information**: Your account name or ID so I can locate your support ticket.\n2. **Issue Description**: A brief summary of the technical issue you are facing.\n3. **Relevant Details**: Any error messages, logs, or screenshots that you think might help in diagnosing the problem.\n4. **Steps Taken**: A list of any troubleshooting steps you have already attempted.\n\nOnce I have this information, I can either assist you directly or escalate the issue to",
+          "accuracy": 0.4166666666666667,
+          "metrics": {
+            "latency_ms": 4097.4280834198,
+            "tokens_used": 260,
+            "cost": 0.00028,
+            "success": true
+          }
+        },
+        {
+          "scenario_id": 1,
+          "agent_id": "tech_agent",
+          "response": "Hello,\n\nI understand how frustrating it can be when your application crashes, especially during an important task like exporting PDFs. The error code **0x80004005** is a generic error that typically indicates an unspecified failure, which can be caused by various issues. Here are some steps to troubleshoot and potentially resolve the problem:\n\n### 1. **Check for Permissions:**\n   - Ensure that the application has the necessary permissions to access the directories where the PDFs are being exported. Right-click on the application executable, go to **Properties**, and check under the **Security** tab.\n   - If you're exporting to a network location, ensure that you have write permissions for that location.\n\n### 2. **Clear Temporary Files:**\n   - Corrupted",
+          "accuracy": 0.4,
+          "metrics": {
+            "latency_ms": 3793.1721210479736,
+            "tokens_used": 264,
+            "cost": 0.000282,
+            "success": true
+          }
+        },
+        {
+          "scenario_id": 4,
+          "agent_id": "tech_agent",
+          "response": "Integrating our API with your Python application to sync user data involves several steps. Below, I\u2019ll outline the process in detail, including code snippets and explanations for each step.\n\n### Step 1: Obtain API Credentials\nBefore you start, ensure you have your API credentials (API key or client ID and secret). You typically get these from the API provider\u2019s dashboard.\n\n### Step 2: Install Required Libraries\nYou'll need the `requests` library to make HTTP requests if you haven't already installed it. You can install it via pip:\n\n```bash\npip install requests\n```\n\n### Step 3: Set Up Your Environment\nImport the necessary libraries and set up your constants, including the API endpoint and your credentials:\n\n```python\nimport requests",
+          "accuracy": 0.5,
+          "metrics": {
+            "latency_ms": 3378.016948699951,
+            "tokens_used": 261,
+            "cost": 0.0002805,
+            "success": true
+          }
+        }
+      ]
+    },
+    {
+      "params": {
+        "instruction_quality": 0.6863619596499754,
+        "routing_quality": 1.0,
+        "agent_specialization": 0.799248216302643
+      },
+      "performance": 0.6354076555555556,
+      "accuracy": 0.5888888888888889,
+      "latency_ms": 3195.8144505818686,
+      "cost": 0.0007395,
+      "success_rate": 1.0,
+      "trial_time": 9.588182210922241,
+      "results": [
+        {
+          "scenario_id": 1,
+          "agent_id": "tech_agent",
+          "response": "The error code `0x80004005` is a common error that typically indicates an \"unspecified error.\" In the context of your application crashing when attempting to export PDFs, it could be attributed to several underlying issues. Let's go through some potential causes and their corresponding troubleshooting steps.\n\n### 1. **File Permissions**\n   - **Description**: The application may not have the necessary permissions to write to the directory where the PDF is being saved.\n   - **Solution**: Check the folder permissions where you are trying to export the PDF. Ensure that the user account running the application has write access to that folder. You can do this by:\n     - Right-clicking on the folder > Properties > Security tab.\n     - Check the permissions",
+          "accuracy": 0.6,
+          "metrics": {
+            "latency_ms": 3374.1092681884766,
+            "tokens_used": 218,
+            "cost": 0.000259,
+            "success": true
+          }
+        },
+        {
+          "scenario_id": 3,
+          "agent_id": "general_agent",
+          "response": "Hello! I'd be happy to help you understand the differences between the Pro and Enterprise plans.\n\nThe **Pro plan** is designed for small to medium-sized businesses or teams that need advanced features for productivity and collaboration. It typically includes functionalities like enhanced reporting, integrations with popular tools, and priority customer support. This plan is great for businesses looking to streamline their operations and improve team efficiency without the need for extensive customization.\n\nOn the other hand, the **Enterprise plan** is tailored for larger organizations that require more robust solutions. This plan often includes all the features of the Pro plan, plus additional benefits such as advanced security options, custom integrations, dedicated account management",
+          "accuracy": 0.8333333333333334,
+          "metrics": {
+            "latency_ms": 3139.737129211426,
+            "tokens_used": 187,
+            "cost": 0.0002235,
+            "success": true
+          }
+        },
+        {
+          "scenario_id": 5,
+          "agent_id": "tech_agent",
+          "response": "I apologize for the delay you are experiencing in receiving support. I understand your frustration, especially as a paid customer. Let me assist you with your issue as quickly as possible. \n\nTo expedite the troubleshooting process, could you please provide me with the following details:\n\n1. **Description of the Issue**: Please describe the specific problem you are facing. Include any error messages you are receiving and the steps you have taken so far to resolve the issue.\n\n2. **Environment Details**: Let me know the environment you are working in. This includes details such as:\n   - The operating system (e.g., Windows, macOS, Linux)\n   - The version of the software or API you are using\n   - Any relevant frameworks or libraries involved",
+          "accuracy": 0.3333333333333333,
+          "metrics": {
+            "latency_ms": 3073.596954345703,
+            "tokens_used": 214,
+            "cost": 0.000257,
+            "success": true
+          }
+        }
+      ]
+    },
+    {
+      "params": {
+        "instruction_quality": 0.7985385246388426,
+        "routing_quality": 0.924032095895718,
+        "agent_specialization": 1.0
+      },
+      "performance": 0.6153938555555556,
+      "accuracy": 0.5388888888888889,
+      "latency_ms": 2844.4770971934,
+      "cost": 0.0008085,
+      "success_rate": 1.0,
+      "trial_time": 8.534175872802734,
+      "results": [
+        {
+          "scenario_id": 5,
+          "agent_id": "tech_agent",
+          "response": "I understand your frustration regarding the delay in support, especially as a paid customer. I sincerely apologize for the inconvenience this has caused you. I\u2019m here to assist you with your technical issue as quickly as possible.\n\nTo help expedite the resolution, could you please provide me with the following information:\n\n1. **Description of the Issue**: A detailed explanation of the problem you are encountering, including any error messages or unexpected behavior.\n2. **Steps to Reproduce**: Any steps you've taken that lead to the issue so I can replicate it on my end.\n3. **API Details**: If this is related to an API, please share the specific endpoints you are working with and any relevant code snippets.\n4. **Account Information**: Your",
+          "accuracy": 0.4166666666666667,
+          "metrics": {
+            "latency_ms": 2900.4268646240234,
+            "tokens_used": 260,
+            "cost": 0.00028,
+            "success": true
+          }
+        },
+        {
+          "scenario_id": 3,
+          "agent_id": "general_agent",
+          "response": "Thank you for your question! The Pro and Enterprise plans are designed to cater to different needs, so let me break down the main differences for you:\n\n1. **User Limits**: The Pro plan usually supports a smaller number of users, while the Enterprise plan is designed for larger teams and organizations, allowing for more users.\n\n2. **Features**: The Pro plan typically includes essential features, while the Enterprise plan offers advanced features, such as enhanced security options, custom integrations, and detailed reporting tools.\n\n3. **Support**: With the Pro plan, you may have access to standard support channels, whereas the Enterprise plan often includes priority support and",
+          "accuracy": 0.6666666666666666,
+          "metrics": {
+            "latency_ms": 2151.247024536133,
+            "tokens_used": 233,
+            "cost": 0.0002465,
+            "success": true
+          }
+        },
+        {
+          "scenario_id": 1,
+          "agent_id": "tech_agent",
+          "response": "Hello,\n\nI understand that you're experiencing issues with your application crashing during PDF exports, and the error code 0x80004005 can be quite frustrating. This error generally indicates an \"unspecified error,\" which can arise from various underlying issues. Here are some detailed steps you can take to troubleshoot and potentially resolve the problem:\n\n### 1. **Check for Updates**\n   Ensure your application and any related dependencies (like PDF libraries) are fully updated. Sometimes, bugs that lead to crashes are resolved in newer versions.\n\n### 2. **Inspect the Export Settings**\n   - Verify that the settings for the PDF export are correctly configured. Sometimes, using unsupported features or invalid configurations can cause the application to fail.\n   - Test exporting with different settings",
+          "accuracy": 0.5333333333333333,
+          "metrics": {
+            "latency_ms": 3481.757402420044,
+            "tokens_used": 264,
+            "cost": 0.000282,
+            "success": true
+          }
+        }
+      ]
+    },
+    {
+      "params": {
+        "instruction_quality": 0.7739729039399227,
+        "routing_quality": 0.8711735202025847,
+        "agent_specialization": 0.8915030922287095
+      },
+      "performance": 0.6481715333333334,
+      "accuracy": 0.6208333333333335,
+      "latency_ms": 3560.28405825297,
+      "cost": 0.000809,
+      "success_rate": 1.0,
+      "trial_time": 10.681531190872192,
+      "results": [
+        {
+          "scenario_id": 4,
+          "agent_id": "tech_agent",
+          "response": "Integrating an API with your Python application to sync user data involves several steps. Below, I\u2019ll provide a detailed guide to help you through the process.\n\n### Step 1: Review API Documentation\nBefore proceeding, ensure you have access to the API documentation. This will provide essential details such as the endpoint URLs, required headers, authentication methods, and data formats (JSON, XML, etc.).\n\n### Step 2: Install Required Libraries\nYou will likely need the `requests` library to make HTTP calls. If you haven't installed it yet, you can do so using pip:\n\n```bash\npip install requests\n```\n\n### Step 3: Authentication\nMost APIs require some form of authentication. Common methods include API keys, OAuth tokens, or",
+          "accuracy": 0.5625,
+          "metrics": {
+            "latency_ms": 2967.63014793396,
+            "tokens_used": 261,
+            "cost": 0.0002805,
+            "success": true
+          }
+        },
+        {
+          "scenario_id": 1,
+          "agent_id": "tech_agent",
+          "response": "I understand how frustrating it can be when your application crashes, especially during critical tasks like exporting PDFs. The error code 0x80004005 is a general error indicating an \"unspecified error,\" which can stem from various issues, including permissions, file corruption, or configuration problems. Here\u2019s a detailed approach to troubleshoot and resolve the issue:\n\n### Step-by-Step Troubleshooting\n\n1. **Check Permissions**:\n   - Ensure that the application has the necessary permissions to write to the directory where you\u2019re trying to export the PDF. Right-click the folder, go to *Properties*, and check the *Security* tab to confirm that your user account has *Write* permissions.\n\n2. **Inspect File Paths**:\n   - Verify that the path",
+          "accuracy": 0.4666666666666667,
+          "metrics": {
+            "latency_ms": 3683.5711002349854,
+            "tokens_used": 264,
+            "cost": 0.000282,
+            "success": true
+          }
+        },
+        {
+          "scenario_id": 3,
+          "agent_id": "general_agent",
+          "response": "Hello! I\u2019d be happy to help clarify the differences between our Pro and Enterprise plans.\n\n**Pro Plan:**\n- Designed for small to medium-sized teams.\n- Generally includes standard features such as collaboration tools, basic reporting, and integrations with popular apps.\n- Typically has a set number of users and storage limits.\n\n**Enterprise Plan:**\n- Tailored for larger organizations with more complex needs.\n- Includes all Pro features plus advanced security options, customizable workflows, enhanced reporting, and priority support.\n- Often allows for more users and greater storage capacity, alongside dedicated account management.\n\nIf you have specific features you're interested in or if you need help deciding which",
+          "accuracy": 0.8333333333333334,
+          "metrics": {
+            "latency_ms": 4029.650926589966,
+            "tokens_used": 233,
+            "cost": 0.0002465,
+            "success": true
+          }
+        }
+      ]
+    },
+    {
+      "params": {
+        "instruction_quality": 0.956401572489482,
+        "routing_quality": 1.0,
+        "agent_specialization": 0.9738072406101221
+      },
+      "performance": 0.5953870555555556,
+      "accuracy": 0.48888888888888893,
+      "latency_ms": 3094.5657889048257,
+      "cost": 0.0008424999999999999,
+      "success_rate": 1.0,
+      "trial_time": 9.284345865249634,
+      "results": [
+        {
+          "scenario_id": 1,
+          "agent_id": "tech_agent",
+          "response": "I understand how frustrating it can be when your application crashes, especially during critical tasks like exporting PDFs. The error code 0x80004005 is a generic error indicating that an unspecified problem has occurred. Here are some steps you can take to troubleshoot and resolve this issue:\n\n### 1. Check for Permissions\n- Ensure that your application has the necessary permissions to write files to the directory where you are trying to export the PDFs. \n- Try running the application as an administrator to see if that resolves the issue.\n\n### 2. Review Application Logs\n- Look for any logs generated by your application at the time of the crash. These logs can provide more context on what might be going wrong.\n- If your application has a built-in logging",
+          "accuracy": 0.4666666666666667,
+          "metrics": {
+            "latency_ms": 2832.792043685913,
+            "tokens_used": 264,
+            "cost": 0.000282,
+            "success": true
+          }
+        },
+        {
+          "scenario_id": 5,
+          "agent_id": "tech_agent",
+          "response": "I understand your frustration regarding the delay in support, especially as a paid customer. I sincerely apologize for the inconvenience this has caused you. Let\u2019s work together to resolve your issue as quickly as possible.\n\nTo expedite the process, could you please provide me with the following details:\n\n1. **Description of the Issue:** A brief overview of the problem you\u2019re facing.\n2. **Error Messages:** Any specific error messages or codes you\u2019ve encountered.\n3. **Steps Taken:** Any troubleshooting steps you have already performed.\n4. **Account Details:** Your account ID or any relevant information to help us locate your case faster.\n\nOnce I have this information, I can assist you more effectively or escalate the matter to ensure you receive the attention you need. Thank",
+          "accuracy": 0.5,
+          "metrics": {
+            "latency_ms": 2976.0332107543945,
+            "tokens_used": 260,
+            "cost": 0.00028,
+            "success": true
+          }
+        },
+        {
+          "scenario_id": 4,
+          "agent_id": "tech_agent",
+          "response": "Integrating our API with your Python application to sync user data involves several steps. Below, I provide a detailed guide to help you through the process.\n\n### Step 1: Obtain API Credentials\n1. **Sign Up**: Ensure you have an account with us.\n2. **API Keys**: Log into your account dashboard and navigate to the API section. Generate your API key and secret, which will be used for authentication in your requests.\n\n### Step 2: Set Up Your Python Environment\n1. **Install Required Libraries**: You will need the `requests` library to make HTTP requests. If you don\u2019t have it installed, use the following command:\n   ```bash\n   pip install requests\n   ```\n\n### Step ",
+          "accuracy": 0.5,
+          "metrics": {
+            "latency_ms": 3474.87211227417,
+            "tokens_used": 261,
+            "cost": 0.0002805,
+            "success": true
+          }
+        }
+      ]
+    }
+  ],
+  "convergence_data": {
+    "performances": [
+      0.5954304555555556,
+      0.6398615000000001,
+      0.5615208666666667,
+      0.6119103370370371,
+      0.6422545074074074,
+      0.6154228555555555,
+      0.5904284555555557,
+      0.6317128518518519,
+      0.622846262962963,
+      0.5798665000000001,
+      0.5998549,
+      0.622817162962963,
+      0.6081882333333334,
+      0.6594917296296297,
+      0.6442965444444445,
+      0.6304079555555556,
+      0.6689211740740741,
+      0.5931786333333333,
+      0.6585557037037038,
+      0.6479953481481482,
+      0.6511482962962963,
+      0.5946669148148148,
+      0.6192848444444445,
+      0.6170772222222223,
+      0.6724393925925927,
+      0.5753870555555556,
+      0.6354076555555556,
+      0.6153938555555556,
+      0.6481715333333334,
+      0.5953870555555556
+    ],
+    "costs": [
+      0.0006255,
+      0.0006925,
+      0.000729,
+      0.0006335,
+      0.0007645,
+      0.0006635,
+      0.0006355,
+      0.0006950000000000001,
+      0.0005835,
+      0.0006674999999999999,
+      0.0007255,
+      0.000729,
+      0.0007254999999999999,
+      0.0006895,
+      0.0007395,
+      0.0007379999999999999,
+      0.0007645,
+      0.0007735000000000001,
+      0.00074,
+      0.0007639999999999999,
+      0.00074,
+      0.0007395,
+      0.000798,
+      0.0007250000000000001,
+      0.000766,
+      0.0008424999999999999,
+      0.0007395,
+      0.0008085,
+      0.000809,
+      0.0008424999999999999
+    ],
+    "latencies": [
+      2896.4219888051352,
+      3069.563309351603,
+      3651.949644088745,
+      2457.651376724243,
+      3105.2633126576743,
+      3172.989765803019,
+      2869.3432013193765,
+      2915.022532145182,
+      2507.892926534017,
+      2594.456672668457,
+      2672.9599634806314,
+      2856.523116429647,
+      2594.2330360412598,
+      2937.7896785736084,
+      3143.2732741038003,
+      3536.679267883301,
+      3314.8789405822754,
+      3622.013012568156,
+      3602.477471033732,
+      2981.665770212809,
+      3775.880972544352,
+      3493.154287338257,
+      3139.6854718526206,
+      2986.7870807647705,
+      3326.866865158081,
+      3756.2057177225747,
+      3195.8144505818686,
+      2844.4770971934,
+      3560.28405825297,
+      3094.5657889048257
+    ]
+  }
+}

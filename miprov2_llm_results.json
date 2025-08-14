@@ -1,0 +1,1230 @@
+{
+  "task_results": {
+    "classification": {
+      "method": "MIPROv2",
+      "task_model": "classification",
+      "elapsed_time": 116.42772674560547,
+      "total_trials": 20,
+      "best_result": {
+        "score": 1.0,
+        "instruction": "Determine the correct category for each input.",
+        "num_examples": 3,
+        "temperature": 0.8116262258099887,
+        "metadata": {
+          "temperature": 0.8116262258099887,
+          "num_demos": 8,
+          "instruction_detail": "minimal",
+          "reasoning_depth": 0.15599452033620265,
+          "response_format": "standard"
+        }
+      },
+      "statistics": {
+        "mean_score": 0.9333333333333332,
+        "best_score": 1.0,
+        "std_score": 0.13333333333333336,
+        "total_cost": 0.0033853499999999996,
+        "mean_latency_ms": 5810.70671081543
+      },
+      "llm_metrics": {
+        "total_calls": 60,
+        "total_cost": 0.003385350000000002,
+        "total_tokens": 9381,
+        "avg_latency_ms": 1936.9022369384766
+      },
+      "config": {
+        "model": "gpt-4o-mini",
+        "max_tokens": 150,
+        "num_trials": 20,
+        "max_bootstrapped_demos": 8
+      },
+      "evaluation_history": [
+        {
+          "trial": 0,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.8116262258099887,
+            "num_demos": 8,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.15599452033620265,
+            "response_format": "standard"
+          },
+          "cost": 3.8849999999999996e-05,
+          "latency_ms": 2392.443895339966
+        },
+        {
+          "trial": 1,
+          "score": 0.6666666666666666,
+          "params": {
+            "temperature": 1.4453378978124864,
+            "num_demos": 0,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.18182496720710062,
+            "response_format": "detailed"
+          },
+          "cost": 0.00028859999999999997,
+          "latency_ms": 11212.579011917114
+        },
+        {
+          "trial": 2,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.9206955354200199,
+            "num_demos": 2,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.3663618432936917,
+            "response_format": "standard"
+          },
+          "cost": 3.285e-05,
+          "latency_ms": 1883.6655616760254
+        },
+        {
+          "trial": 3,
+          "score": 1.0,
+          "params": {
+            "temperature": 1.077045432985862,
+            "num_demos": 5,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.06505159298527952,
+            "response_format": "standard"
+          },
+          "cost": 4.695e-05,
+          "latency_ms": 1808.1953525543213
+        },
+        {
+          "trial": 4,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.6787661614294043,
+            "num_demos": 0,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.4951769101112702,
+            "response_format": "standard"
+          },
+          "cost": 0.00028305,
+          "latency_ms": 8650.645017623901
+        },
+        {
+          "trial": 5,
+          "score": 1.0,
+          "params": {
+            "temperature": 1.3587923402725657,
+            "num_demos": 2,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.9695846277645586,
+            "response_format": "standard"
+          },
+          "cost": 0.0003093,
+          "latency_ms": 9726.638078689575
+        },
+        {
+          "trial": 6,
+          "score": 0.6666666666666666,
+          "params": {
+            "temperature": 1.2360099597410616,
+            "num_demos": 8,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.32533033076326434,
+            "response_format": "detailed"
+          },
+          "cost": 0.0002991,
+          "latency_ms": 8976.892232894897
+        },
+        {
+          "trial": 7,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.7778313207178196,
+            "num_demos": 2,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.07455064367977082,
+            "response_format": "concise"
+          },
+          "cost": 0.00012314999999999998,
+          "latency_ms": 3332.5629234313965
+        },
+        {
+          "trial": 8,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.11049202253484457,
+            "num_demos": 7,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.07404465173409036,
+            "response_format": "detailed"
+          },
+          "cost": 0.00031874999999999997,
+          "latency_ms": 9324.588775634766
+        },
+        {
+          "trial": 9,
+          "score": 1.0,
+          "params": {
+            "temperature": 1.28426644097236,
+            "num_demos": 2,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.7296061783380641,
+            "response_format": "standard"
+          },
+          "cost": 0.00031335,
+          "latency_ms": 10879.869222640991
+        },
+        {
+          "trial": 10,
+          "score": 0.6666666666666666,
+          "params": {
+            "temperature": 1.895759434037735,
+            "num_demos": 6,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.6712688648177173,
+            "response_format": "concise"
+          },
+          "cost": 0.00031515,
+          "latency_ms": 10709.102153778076
+        },
+        {
+          "trial": 11,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.6710731637937573,
+            "num_demos": 4,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.3347951762232364,
+            "response_format": "standard"
+          },
+          "cost": 3.8849999999999996e-05,
+          "latency_ms": 2266.9358253479004
+        },
+        {
+          "trial": 12,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.26832138034864783,
+            "num_demos": 3,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.3168149961633906,
+            "response_format": "standard"
+          },
+          "cost": 3.8849999999999996e-05,
+          "latency_ms": 1616.1859035491943
+        },
+        {
+          "trial": 13,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.9260814107974045,
+            "num_demos": 8,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.48892516160772614,
+            "response_format": "standard"
+          },
+          "cost": 4.005e-05,
+          "latency_ms": 2087.189197540283
+        },
+        {
+          "trial": 14,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.4013164181186459,
+            "num_demos": 4,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.2737438196211739,
+            "response_format": "standard"
+          },
+          "cost": 3.8849999999999996e-05,
+          "latency_ms": 2274.9319076538086
+        },
+        {
+          "trial": 15,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.5126650740484081,
+            "num_demos": 6,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.18852615255498084,
+            "response_format": "concise"
+          },
+          "cost": 4.199999999999999e-05,
+          "latency_ms": 1909.1837406158447
+        },
+        {
+          "trial": 16,
+          "score": 0.6666666666666666,
+          "params": {
+            "temperature": 1.638935642623431,
+            "num_demos": 1,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.6634064286119825,
+            "response_format": "standard"
+          },
+          "cost": 0.00029804999999999995,
+          "latency_ms": 11730.54838180542
+        },
+        {
+          "trial": 17,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.983501846753526,
+            "num_demos": 5,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.43292867848774297,
+            "response_format": "standard"
+          },
+          "cost": 3.8849999999999996e-05,
+          "latency_ms": 2213.8850688934326
+        },
+        {
+          "trial": 18,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.8498327024340002,
+            "num_demos": 3,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.20386799143554912,
+            "response_format": "concise"
+          },
+          "cost": 0.00017055,
+          "latency_ms": 5699.169874191284
+        },
+        {
+          "trial": 19,
+          "score": 1.0,
+          "params": {
+            "temperature": 1.1168741263121307,
+            "num_demos": 7,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.010989189243771347,
+            "response_format": "detailed"
+          },
+          "cost": 0.00031019999999999995,
+          "latency_ms": 7518.9220905303955
+        }
+      ]
+    },
+    "generation": {
+      "method": "MIPROv2",
+      "task_model": "generation",
+      "elapsed_time": 83.00577807426453,
+      "total_trials": 20,
+      "best_result": {
+        "score": 0.925,
+        "instruction": "Create appropriate output following the given context. Provide comprehensive analysis with clear reasoning, ensure accuracy, and include all relevant details in your response.",
+        "num_examples": 2,
+        "temperature": 0.7778313207178196,
+        "metadata": {
+          "temperature": 0.7778313207178196,
+          "num_demos": 2,
+          "instruction_detail": "detailed",
+          "reasoning_depth": 0.07455064367977082,
+          "response_format": "concise"
+        }
+      },
+      "statistics": {
+        "mean_score": 0.735625,
+        "best_score": 0.925,
+        "std_score": 0.1287727528439149,
+        "total_cost": 0.0027858000000000006,
+        "mean_latency_ms": 4141.70960187912
+      },
+      "llm_metrics": {
+        "total_calls": 40,
+        "total_cost": 0.0027857999999999993,
+        "total_tokens": 7760,
+        "avg_latency_ms": 2070.85480093956
+      },
+      "config": {
+        "model": "gpt-4o-mini",
+        "max_tokens": 150,
+        "num_trials": 20,
+        "max_bootstrapped_demos": 8
+      },
+      "evaluation_history": [
+        {
+          "trial": 0,
+          "score": 0.7875,
+          "params": {
+            "temperature": 0.8116262258099887,
+            "num_demos": 8,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.15599452033620265,
+            "response_format": "standard"
+          },
+          "cost": 5.2199999999999995e-05,
+          "latency_ms": 1683.6116313934326
+        },
+        {
+          "trial": 1,
+          "score": 0.625,
+          "params": {
+            "temperature": 1.4453378978124864,
+            "num_demos": 0,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.18182496720710062,
+            "response_format": "detailed"
+          },
+          "cost": 0.00019289999999999997,
+          "latency_ms": 6279.026985168457
+        },
+        {
+          "trial": 2,
+          "score": 0.6625,
+          "params": {
+            "temperature": 0.9206955354200199,
+            "num_demos": 2,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.3663618432936917,
+            "response_format": "standard"
+          },
+          "cost": 6.749999999999999e-05,
+          "latency_ms": 2419.7919368743896
+        },
+        {
+          "trial": 3,
+          "score": 0.85,
+          "params": {
+            "temperature": 1.077045432985862,
+            "num_demos": 5,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.06505159298527952,
+            "response_format": "standard"
+          },
+          "cost": 7.98e-05,
+          "latency_ms": 2079.774856567383
+        },
+        {
+          "trial": 4,
+          "score": 0.75,
+          "params": {
+            "temperature": 0.6787661614294043,
+            "num_demos": 0,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.4951769101112702,
+            "response_format": "standard"
+          },
+          "cost": 0.0001671,
+          "latency_ms": 5030.827283859253
+        },
+        {
+          "trial": 5,
+          "score": 0.75,
+          "params": {
+            "temperature": 1.3587923402725657,
+            "num_demos": 2,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.9695846277645586,
+            "response_format": "standard"
+          },
+          "cost": 0.00019079999999999998,
+          "latency_ms": 5275.447130203247
+        },
+        {
+          "trial": 6,
+          "score": 0.875,
+          "params": {
+            "temperature": 1.2360099597410616,
+            "num_demos": 8,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.32533033076326434,
+            "response_format": "detailed"
+          },
+          "cost": 0.00021239999999999999,
+          "latency_ms": 5484.917879104614
+        },
+        {
+          "trial": 7,
+          "score": 0.925,
+          "params": {
+            "temperature": 0.7778313207178196,
+            "num_demos": 2,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.07455064367977082,
+            "response_format": "concise"
+          },
+          "cost": 8.969999999999998e-05,
+          "latency_ms": 3276.1359214782715
+        },
+        {
+          "trial": 8,
+          "score": 0.75,
+          "params": {
+            "temperature": 0.11049202253484457,
+            "num_demos": 7,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.07404465173409036,
+            "response_format": "detailed"
+          },
+          "cost": 0.00021479999999999996,
+          "latency_ms": 5750.20694732666
+        },
+        {
+          "trial": 9,
+          "score": 0.875,
+          "params": {
+            "temperature": 1.28426644097236,
+            "num_demos": 2,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.7296061783380641,
+            "response_format": "standard"
+          },
+          "cost": 0.00021689999999999996,
+          "latency_ms": 5630.658149719238
+        },
+        {
+          "trial": 10,
+          "score": 0.375,
+          "params": {
+            "temperature": 1.895759434037735,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.6966980619768638,
+            "response_format": "concise"
+          },
+          "cost": 0.00021899999999999996,
+          "latency_ms": 6531.362771987915
+        },
+        {
+          "trial": 11,
+          "score": 0.725,
+          "params": {
+            "temperature": 0.6177262832330406,
+            "num_demos": 6,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.3347951762232364,
+            "response_format": "concise"
+          },
+          "cost": 5.6399999999999995e-05,
+          "latency_ms": 2209.603786468506
+        },
+        {
+          "trial": 12,
+          "score": 0.625,
+          "params": {
+            "temperature": 0.4027968675196461,
+            "num_demos": 3,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.29223846550198634,
+            "response_format": "detailed"
+          },
+          "cost": 0.00021569999999999998,
+          "latency_ms": 6939.204216003418
+        },
+        {
+          "trial": 13,
+          "score": 0.6,
+          "params": {
+            "temperature": 1.7323127957115771,
+            "num_demos": 8,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.010686604785607387,
+            "response_format": "concise"
+          },
+          "cost": 6.539999999999999e-05,
+          "latency_ms": 1900.461196899414
+        },
+        {
+          "trial": 14,
+          "score": 0.625,
+          "params": {
+            "temperature": 1.0968632022604479,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.4960413121697144,
+            "response_format": "detailed"
+          },
+          "cost": 0.00021569999999999998,
+          "latency_ms": 6322.914123535156
+        },
+        {
+          "trial": 15,
+          "score": 0.725,
+          "params": {
+            "temperature": 1.5605107644891714,
+            "num_demos": 6,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.2438749608635683,
+            "response_format": "concise"
+          },
+          "cost": 7.08e-05,
+          "latency_ms": 2000.7681846618652
+        },
+        {
+          "trial": 16,
+          "score": 0.8625,
+          "params": {
+            "temperature": 0.4708197817151426,
+            "num_demos": 1,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.39072565316742514,
+            "response_format": "concise"
+          },
+          "cost": 7.38e-05,
+          "latency_ms": 2145.9550857543945
+        },
+        {
+          "trial": 17,
+          "score": 0.6875,
+          "params": {
+            "temperature": 1.1669456780038847,
+            "num_demos": 5,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.6621039931969789,
+            "response_format": "detailed"
+          },
+          "cost": 0.00021899999999999996,
+          "latency_ms": 6805.066108703613
+        },
+        {
+          "trial": 18,
+          "score": 0.9125,
+          "params": {
+            "temperature": 0.8854867894161542,
+            "num_demos": 3,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.1655562813853778,
+            "response_format": "concise"
+          },
+          "cost": 8.309999999999999e-05,
+          "latency_ms": 2690.333843231201
+        },
+        {
+          "trial": 19,
+          "score": 0.725,
+          "params": {
+            "temperature": 0.2446915128509547,
+            "num_demos": 3,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.1418569833293398,
+            "response_format": "concise"
+          },
+          "cost": 8.28e-05,
+          "latency_ms": 2378.123998641968
+        }
+      ]
+    },
+    "reasoning": {
+      "method": "MIPROv2",
+      "task_model": "reasoning",
+      "elapsed_time": 80.93304800987244,
+      "total_trials": 20,
+      "best_result": {
+        "score": 1.0,
+        "instruction": "Apply logical reasoning to solve this problem.",
+        "num_examples": 2,
+        "temperature": 0.8116262258099887,
+        "metadata": {
+          "temperature": 0.8116262258099887,
+          "num_demos": 8,
+          "instruction_detail": "minimal",
+          "reasoning_depth": 0.15599452033620265,
+          "response_format": "standard"
+        }
+      },
+      "statistics": {
+        "mean_score": 0.7216666666666667,
+        "best_score": 1.0,
+        "std_score": 0.25017216294206496,
+        "total_cost": 0.0026718,
+        "mean_latency_ms": 4036.095631122589
+      },
+      "llm_metrics": {
+        "total_calls": 40,
+        "total_cost": 0.0026717999999999998,
+        "total_tokens": 8560,
+        "avg_latency_ms": 2018.0478155612946
+      },
+      "config": {
+        "model": "gpt-4o-mini",
+        "max_tokens": 150,
+        "num_trials": 20,
+        "max_bootstrapped_demos": 8
+      },
+      "evaluation_history": [
+        {
+          "trial": 0,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.8116262258099887,
+            "num_demos": 8,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.15599452033620265,
+            "response_format": "standard"
+          },
+          "cost": 4.9949999999999994e-05,
+          "latency_ms": 1314.3699169158936
+        },
+        {
+          "trial": 1,
+          "score": 0.43333333333333335,
+          "params": {
+            "temperature": 1.4453378978124864,
+            "num_demos": 0,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.18182496720710062,
+            "response_format": "detailed"
+          },
+          "cost": 0.00019695,
+          "latency_ms": 6121.35910987854
+        },
+        {
+          "trial": 2,
+          "score": 0.6,
+          "params": {
+            "temperature": 0.9206955354200199,
+            "num_demos": 2,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.3663618432936917,
+            "response_format": "standard"
+          },
+          "cost": 0.00013515,
+          "latency_ms": 4906.937599182129
+        },
+        {
+          "trial": 3,
+          "score": 0.8,
+          "params": {
+            "temperature": 1.077045432985862,
+            "num_demos": 5,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.06505159298527952,
+            "response_format": "standard"
+          },
+          "cost": 0.00013695,
+          "latency_ms": 4837.715148925781
+        },
+        {
+          "trial": 4,
+          "score": 0.48333333333333334,
+          "params": {
+            "temperature": 0.6787661614294043,
+            "num_demos": 0,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.4951769101112702,
+            "response_format": "standard"
+          },
+          "cost": 0.00019485,
+          "latency_ms": 6365.035772323608
+        },
+        {
+          "trial": 5,
+          "score": 0.43333333333333335,
+          "params": {
+            "temperature": 1.3587923402725657,
+            "num_demos": 2,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.9695846277645586,
+            "response_format": "standard"
+          },
+          "cost": 0.00022485,
+          "latency_ms": 6560.273170471191
+        },
+        {
+          "trial": 6,
+          "score": 0.43333333333333335,
+          "params": {
+            "temperature": 1.2360099597410616,
+            "num_demos": 8,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.32533033076326434,
+            "response_format": "detailed"
+          },
+          "cost": 0.00022365,
+          "latency_ms": 6757.281064987183
+        },
+        {
+          "trial": 7,
+          "score": 0.95,
+          "params": {
+            "temperature": 0.7778313207178196,
+            "num_demos": 2,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.07455064367977082,
+            "response_format": "concise"
+          },
+          "cost": 5.955e-05,
+          "latency_ms": 1749.5992183685303
+        },
+        {
+          "trial": 8,
+          "score": 0.43333333333333335,
+          "params": {
+            "temperature": 0.11049202253484457,
+            "num_demos": 7,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.07404465173409036,
+            "response_format": "detailed"
+          },
+          "cost": 0.00022634999999999997,
+          "latency_ms": 6874.802827835083
+        },
+        {
+          "trial": 9,
+          "score": 0.43333333333333335,
+          "params": {
+            "temperature": 1.28426644097236,
+            "num_demos": 2,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.7296061783380641,
+            "response_format": "standard"
+          },
+          "cost": 0.00022754999999999997,
+          "latency_ms": 6139.294862747192
+        },
+        {
+          "trial": 10,
+          "score": 0.5833333333333333,
+          "params": {
+            "temperature": 1.895759434037735,
+            "num_demos": 6,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.6712688648177173,
+            "response_format": "concise"
+          },
+          "cost": 0.00015495,
+          "latency_ms": 4958.191394805908
+        },
+        {
+          "trial": 11,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.6710731637937573,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.20745304839554624,
+            "response_format": "concise"
+          },
+          "cost": 5.7749999999999994e-05,
+          "latency_ms": 1426.802158355713
+        },
+        {
+          "trial": 12,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.42354129038357224,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.28469781543121997,
+            "response_format": "concise"
+          },
+          "cost": 5.7749999999999994e-05,
+          "latency_ms": 1539.109706878662
+        },
+        {
+          "trial": 13,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.4673438470137662,
+            "num_demos": 4,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.21583604071288565,
+            "response_format": "concise"
+          },
+          "cost": 5.204999999999999e-05,
+          "latency_ms": 1557.558298110962
+        },
+        {
+          "trial": 14,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.49428842402593254,
+            "num_demos": 8,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.4633199366860907,
+            "response_format": "concise"
+          },
+          "cost": 5.7749999999999994e-05,
+          "latency_ms": 1561.1670017242432
+        },
+        {
+          "trial": 15,
+          "score": 0.5333333333333333,
+          "params": {
+            "temperature": 0.16381318137549672,
+            "num_demos": 5,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.6510158031715948,
+            "response_format": "standard"
+          },
+          "cost": 0.00022244999999999999,
+          "latency_ms": 5377.067804336548
+        },
+        {
+          "trial": 16,
+          "score": 0.8833333333333333,
+          "params": {
+            "temperature": 1.638935642623431,
+            "num_demos": 6,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.22417175736570058,
+            "response_format": "concise"
+          },
+          "cost": 6.135e-05,
+          "latency_ms": 3445.9941387176514
+        },
+        {
+          "trial": 17,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.9766691950250865,
+            "num_demos": 3,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.40022760643031735,
+            "response_format": "concise"
+          },
+          "cost": 5.8349999999999995e-05,
+          "latency_ms": 1618.635892868042
+        },
+        {
+          "trial": 18,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.6749275576082995,
+            "num_demos": 6,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.15512090035874776,
+            "response_format": "standard"
+          },
+          "cost": 4.9949999999999994e-05,
+          "latency_ms": 1375.2617835998535
+        },
+        {
+          "trial": 19,
+          "score": 0.43333333333333335,
+          "params": {
+            "temperature": 0.3232136610081575,
+            "num_demos": 7,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.010989189243771347,
+            "response_format": "detailed"
+          },
+          "cost": 0.00022365,
+          "latency_ms": 6235.455751419067
+        }
+      ]
+    },
+    "extraction": {
+      "method": "MIPROv2",
+      "task_model": "extraction",
+      "elapsed_time": 71.52910733222961,
+      "total_trials": 20,
+      "best_result": {
+        "score": 1.0,
+        "instruction": "Identify and extract the key elements.",
+        "num_examples": 2,
+        "temperature": 0.8116262258099887,
+        "metadata": {
+          "temperature": 0.8116262258099887,
+          "num_demos": 8,
+          "instruction_detail": "minimal",
+          "reasoning_depth": 0.15599452033620265,
+          "response_format": "standard"
+        }
+      },
+      "statistics": {
+        "mean_score": 0.9166666666666666,
+        "best_score": 1.0,
+        "std_score": 0.23863035105460587,
+        "total_cost": 0.0025116,
+        "mean_latency_ms": 3566.8307185173035
+      },
+      "llm_metrics": {
+        "total_calls": 40,
+        "total_cost": 0.0025116,
+        "total_tokens": 8686,
+        "avg_latency_ms": 1783.4153592586517
+      },
+      "config": {
+        "model": "gpt-4o-mini",
+        "max_tokens": 150,
+        "num_trials": 20,
+        "max_bootstrapped_demos": 8
+      },
+      "evaluation_history": [
+        {
+          "trial": 0,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.8116262258099887,
+            "num_demos": 8,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.15599452033620265,
+            "response_format": "standard"
+          },
+          "cost": 7.95e-05,
+          "latency_ms": 2244.951009750366
+        },
+        {
+          "trial": 1,
+          "score": 1.0,
+          "params": {
+            "temperature": 1.4453378978124864,
+            "num_demos": 0,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.18182496720710062,
+            "response_format": "detailed"
+          },
+          "cost": 0.0001557,
+          "latency_ms": 4944.355249404907
+        },
+        {
+          "trial": 2,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.9206955354200199,
+            "num_demos": 2,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.3663618432936917,
+            "response_format": "standard"
+          },
+          "cost": 7.98e-05,
+          "latency_ms": 1703.9833068847656
+        },
+        {
+          "trial": 3,
+          "score": 1.0,
+          "params": {
+            "temperature": 1.077045432985862,
+            "num_demos": 5,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.06505159298527952,
+            "response_format": "standard"
+          },
+          "cost": 8.28e-05,
+          "latency_ms": 1860.1100444793701
+        },
+        {
+          "trial": 4,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.6787661614294043,
+            "num_demos": 0,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.4951769101112702,
+            "response_format": "standard"
+          },
+          "cost": 4.319999999999999e-05,
+          "latency_ms": 2127.023935317993
+        },
+        {
+          "trial": 5,
+          "score": 1.0,
+          "params": {
+            "temperature": 1.3587923402725657,
+            "num_demos": 2,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.9695846277645586,
+            "response_format": "standard"
+          },
+          "cost": 0.0002337,
+          "latency_ms": 5678.954124450684
+        },
+        {
+          "trial": 6,
+          "score": 1.0,
+          "params": {
+            "temperature": 1.2360099597410616,
+            "num_demos": 8,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.32533033076326434,
+            "response_format": "detailed"
+          },
+          "cost": 8.58e-05,
+          "latency_ms": 2334.8612785339355
+        },
+        {
+          "trial": 7,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.7778313207178196,
+            "num_demos": 2,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.07455064367977082,
+            "response_format": "concise"
+          },
+          "cost": 8.76e-05,
+          "latency_ms": 2059.0720176696777
+        },
+        {
+          "trial": 8,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.11049202253484457,
+            "num_demos": 7,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.07404465173409036,
+            "response_format": "detailed"
+          },
+          "cost": 0.00023519999999999997,
+          "latency_ms": 6035.951852798462
+        },
+        {
+          "trial": 9,
+          "score": 1.0,
+          "params": {
+            "temperature": 1.28426644097236,
+            "num_demos": 2,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.7296061783380641,
+            "response_format": "standard"
+          },
+          "cost": 0.0002361,
+          "latency_ms": 6040.77410697937
+        },
+        {
+          "trial": 10,
+          "score": 0.5,
+          "params": {
+            "temperature": 1.895759434037735,
+            "num_demos": 6,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.6712688648177173,
+            "response_format": "concise"
+          },
+          "cost": 0.00016409999999999998,
+          "latency_ms": 4186.966896057129
+        },
+        {
+          "trial": 11,
+          "score": 1.0,
+          "params": {
+            "temperature": 1.7102728455261451,
+            "num_demos": 4,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.2606335184237439,
+            "response_format": "detailed"
+          },
+          "cost": 8.31e-05,
+          "latency_ms": 1841.4311408996582
+        },
+        {
+          "trial": 12,
+          "score": 0.8333333333333333,
+          "params": {
+            "temperature": 0.42354129038357224,
+            "num_demos": 0,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.21540698066512548,
+            "response_format": "detailed"
+          },
+          "cost": 0.00016109999999999999,
+          "latency_ms": 5277.4481773376465
+        },
+        {
+          "trial": 13,
+          "score": 1.0,
+          "params": {
+            "temperature": 1.5832374562246603,
+            "num_demos": 4,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.46776037715867624,
+            "response_format": "detailed"
+          },
+          "cost": 8.28e-05,
+          "latency_ms": 2190.6609535217285
+        },
+        {
+          "trial": 14,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.5562371071850348,
+            "num_demos": 8,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.1288706766978636,
+            "response_format": "concise"
+          },
+          "cost": 8.159999999999999e-05,
+          "latency_ms": 2043.6389446258545
+        },
+        {
+          "trial": 15,
+          "score": 1.0,
+          "params": {
+            "temperature": 1.5311263486502968,
+            "num_demos": 6,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.21321272793837,
+            "response_format": "standard"
+          },
+          "cost": 7.98e-05,
+          "latency_ms": 2545.336961746216
+        },
+        {
+          "trial": 16,
+          "score": 0.0,
+          "params": {
+            "temperature": 1.9987886334189473,
+            "num_demos": 3,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.6634064286119825,
+            "response_format": "detailed"
+          },
+          "cost": 0.00023279999999999997,
+          "latency_ms": 4962.653875350952
+        },
+        {
+          "trial": 17,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.983501846753526,
+            "num_demos": 1,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.38954695986970567,
+            "response_format": "detailed"
+          },
+          "cost": 0.0001401,
+          "latency_ms": 9379.379749298096
+        },
+        {
+          "trial": 18,
+          "score": 1.0,
+          "params": {
+            "temperature": 0.3708504428345937,
+            "num_demos": 5,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.1664647521492593,
+            "response_format": "standard"
+          },
+          "cost": 8.52e-05,
+          "latency_ms": 1985.3110313415527
+        },
+        {
+          "trial": 19,
+          "score": 1.0,
+          "params": {
+            "temperature": 1.1361641702510061,
+            "num_demos": 7,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.010989189243771347,
+            "response_format": "concise"
+          },
+          "cost": 8.159999999999999e-05,
+          "latency_ms": 1893.749713897705
+        }
+      ]
+    }
+  },
+  "summary": {
+    "classification": {
+      "best_score": 1.0,
+      "mean_score": 0.9333333333333332,
+      "total_cost": 0.0033853499999999996,
+      "best_instruction": "Determine the correct category for each input...."
+    },
+    "generation": {
+      "best_score": 0.925,
+      "mean_score": 0.735625,
+      "total_cost": 0.0027858000000000006,
+      "best_instruction": "Create appropriate output following the given context. Provide comprehensive analysis with clear rea..."
+    },
+    "reasoning": {
+      "best_score": 1.0,
+      "mean_score": 0.7216666666666667,
+      "total_cost": 0.0026718,
+      "best_instruction": "Apply logical reasoning to solve this problem...."
+    },
+    "extraction": {
+      "best_score": 1.0,
+      "mean_score": 0.9166666666666666,
+      "total_cost": 0.0025116,
+      "best_instruction": "Identify and extract the key elements...."
+    }
+  }
+}

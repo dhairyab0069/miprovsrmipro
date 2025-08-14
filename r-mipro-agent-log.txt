@@ -1,0 +1,134 @@
+2025-08-15 01:19:50,024 - INFO - ============================================================
+2025-08-15 01:19:50,024 - INFO - r-MIPRO Agent Management Test
+2025-08-15 01:19:50,024 - INFO - ============================================================
+2025-08-15 01:19:50,024 - INFO - ============================================================
+2025-08-15 01:19:50,024 - INFO - Starting r-MIPRO Agent Optimization
+2025-08-15 01:19:50,024 - INFO - Budget: 30 trials
+2025-08-15 01:19:50,024 - INFO - Constraints: max_cost=$1.0, max_latency=2000ms
+2025-08-15 01:19:50,024 - INFO - ============================================================
+2025-08-15 01:19:50,024 - INFO - Phase 1: Intelligent Exploration (6 trials)
+2025-08-15 01:19:53,068 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:19:55,678 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:19:59,101 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:20:02,492 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:20:07,402 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:20:10,417 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:20:10,425 - INFO - 
+Phase 2: Adaptive Optimization (24 trials)
+2025-08-15 01:20:13,942 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:20:17,466 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:20:20,424 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:20:24,707 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:20:24,710 - INFO -   Progress: 10/30, Avg Performance: 0.339, Total Cost: $0.001
+2025-08-15 01:20:27,836 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:20:30,518 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:20:33,204 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:20:35,842 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:20:37,921 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:20:41,606 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:20:43,960 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:20:47,042 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:20:49,653 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:20:52,748 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:20:52,754 - INFO -   Progress: 20/30, Avg Performance: 0.666, Total Cost: $0.002
+2025-08-15 01:20:55,836 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:20:58,497 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:20:59,860 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:21:03,377 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:21:06,179 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:21:08,777 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:21:11,604 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:21:16,310 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:21:19,080 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:21:21,130 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:21:21,134 - INFO -   Progress: 30/30, Avg Performance: 0.667, Total Cost: $0.003
+2025-08-15 01:21:21,134 - INFO - 
+Phase 3: Final Evaluation
+2025-08-15 01:21:23,073 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:21:25,845 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:21:29,117 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:21:33,290 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-15 01:21:36,796 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+
+============================================================
+R-MIPRO OPTIMIZATION RESULTS
+============================================================
+
+Performance Metrics:
+  Final Accuracy: 0.624
+  Average Latency: 3132.7ms
+  Total Cost: $0.0029
+  Total Time: 106.8s
+  Trials Used: 30
+
+Agent Performance & Resource Allocation:
+
+  tech_specialist:
+    Best Performance: 0.737
+    Mean Performance: 0.682
+    Entropy: -1.818
+    Bottleneck Score: 0.053
+    Queries Handled: 3
+    Resource Allocations: 1 (3.3%)
+    Best Parameters:
+      instruction_detail: 0.500
+      few_shot_examples: 0.000
+      reasoning_depth: 0.500
+      response_structure: 0.500
+
+  billing_expert:
+    Best Performance: 0.709
+    Mean Performance: 0.674
+    Entropy: -1.991
+    Bottleneck Score: 0.204
+    Queries Handled: 3
+    Resource Allocations: 1 (3.3%)
+    Best Parameters:
+      instruction_detail: 0.500
+      few_shot_examples: 0.000
+      reasoning_depth: 0.500
+      response_structure: 0.500
+
+  product_advisor:
+    Best Performance: 0.765
+    Mean Performance: 0.628
+    Entropy: -1.358
+    Bottleneck Score: 1.000
+    Queries Handled: 21
+    Resource Allocations: 20 (66.7%)
+    Best Parameters:
+      instruction_detail: 0.500
+      few_shot_examples: 0.000
+      reasoning_depth: 0.500
+      response_structure: 0.500
+
+  escalation_handler:
+    Best Performance: 0.765
+    Mean Performance: 0.685
+    Entropy: -1.429
+    Bottleneck Score: 0.000
+    Queries Handled: 3
+    Resource Allocations: 2 (6.7%)
+    Best Parameters:
+      instruction_detail: 0.500
+      few_shot_examples: 0.000
+      reasoning_depth: 0.500
+      response_structure: 0.500
+2025-08-15 01:21:36,808 - INFO - 
+Results saved to r_mipro_agent_results.json
+
+============================================================
+KEY INSIGHTS
+============================================================
+
+1. Resource Allocation:
+   r-MIPRO dynamically allocated resources based on agent performance,
+   bottleneck scores, and improvement potential.
+
+2. Parameter Optimization:
+   Each agent developed unique optimal parameters based on their role
+   and the types of queries they handled.
+
+3. Cost Efficiency:
+   Total optimization cost: $0.0029
+   Average cost per trial: $0.0001

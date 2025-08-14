@@ -1,0 +1,832 @@
+[
+  {
+    "test": "strategy_comparison",
+    "results": {
+      "uniform": [
+        {
+          "final_metrics": {
+            "text_extractor": {
+              "best_performance": 0.9915533970899061,
+              "trials_allocated": 0,
+              "convergence_score": 0.9933942490388992,
+              "improvement": 0.17653569464813146
+            },
+            "code_generator": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9965326526370546,
+              "improvement": 0
+            },
+            "agent_reasoner": {
+              "best_performance": 0.9598233971416901,
+              "trials_allocated": 0,
+              "convergence_score": 0.9982781111285071,
+              "improvement": 0.32009667391227714
+            }
+          },
+          "best_configurations": {
+            "text_extractor": null,
+            "code_generator": null,
+            "agent_reasoner": null
+          },
+          "resource_allocation": {
+            "text_extractor": 33,
+            "code_generator": 33,
+            "agent_reasoner": 33
+          },
+          "total_budget_used": 99,
+          "strategy": "uniform",
+          "optimization_log": []
+        },
+        {
+          "final_metrics": {
+            "text_extractor": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9819384892854811,
+              "improvement": 0.1876730020828402
+            },
+            "code_generator": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9909837504554878,
+              "improvement": 0
+            },
+            "agent_reasoner": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9805862689204281,
+              "improvement": 0.42744405859266976
+            }
+          },
+          "best_configurations": {
+            "text_extractor": null,
+            "code_generator": null,
+            "agent_reasoner": null
+          },
+          "resource_allocation": {
+            "text_extractor": 33,
+            "code_generator": 33,
+            "agent_reasoner": 33
+          },
+          "total_budget_used": 99,
+          "strategy": "uniform",
+          "optimization_log": []
+        },
+        {
+          "final_metrics": {
+            "text_extractor": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9889381051296767,
+              "improvement": 0.18024819912229328
+            },
+            "code_generator": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9881679032410665,
+              "improvement": 0
+            },
+            "agent_reasoner": {
+              "best_performance": 0.9835002126617997,
+              "trials_allocated": 0,
+              "convergence_score": 0.9711939845023095,
+              "improvement": 0.2922479807424462
+            }
+          },
+          "best_configurations": {
+            "text_extractor": null,
+            "code_generator": null,
+            "agent_reasoner": null
+          },
+          "resource_allocation": {
+            "text_extractor": 33,
+            "code_generator": 33,
+            "agent_reasoner": 33
+          },
+          "total_budget_used": 99,
+          "strategy": "uniform",
+          "optimization_log": []
+        }
+      ],
+      "adaptive": [
+        {
+          "final_metrics": {
+            "text_extractor": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9774380191429307,
+              "improvement": 0.10326119712260118
+            },
+            "code_generator": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9976800590650682,
+              "improvement": 0.02758782656438019
+            },
+            "agent_reasoner": {
+              "best_performance": 0.957835568161052,
+              "trials_allocated": 0,
+              "convergence_score": 0.9917638165355583,
+              "improvement": 0.3037203700557578
+            }
+          },
+          "best_configurations": {
+            "text_extractor": null,
+            "code_generator": null,
+            "agent_reasoner": null
+          },
+          "resource_allocation": {
+            "text_extractor": 33,
+            "code_generator": 33,
+            "agent_reasoner": 33
+          },
+          "total_budget_used": 99,
+          "strategy": "adaptive",
+          "optimization_log": []
+        },
+        {
+          "final_metrics": {
+            "text_extractor": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9962100415012686,
+              "improvement": 0.24440177540020747
+            },
+            "code_generator": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9996140934080154,
+              "improvement": 0.14496324698326823
+            },
+            "agent_reasoner": {
+              "best_performance": 0.984124784431198,
+              "trials_allocated": 0,
+              "convergence_score": 0.9858058957179568,
+              "improvement": 0.14725209622877244
+            }
+          },
+          "best_configurations": {
+            "text_extractor": null,
+            "code_generator": null,
+            "agent_reasoner": null
+          },
+          "resource_allocation": {
+            "text_extractor": 33,
+            "code_generator": 33,
+            "agent_reasoner": 33
+          },
+          "total_budget_used": 99,
+          "strategy": "adaptive",
+          "optimization_log": []
+        },
+        {
+          "final_metrics": {
+            "text_extractor": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9866288251828501,
+              "improvement": 0.1259264657653445
+            },
+            "code_generator": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9987379903616664,
+              "improvement": 0.20526296897432816
+            },
+            "agent_reasoner": {
+              "best_performance": 0.9464636011949935,
+              "trials_allocated": 0,
+              "convergence_score": 0.9763439527611157,
+              "improvement": 0.1382713722674288
+            }
+          },
+          "best_configurations": {
+            "text_extractor": null,
+            "code_generator": null,
+            "agent_reasoner": null
+          },
+          "resource_allocation": {
+            "text_extractor": 33,
+            "code_generator": 33,
+            "agent_reasoner": 33
+          },
+          "total_budget_used": 99,
+          "strategy": "adaptive",
+          "optimization_log": []
+        }
+      ],
+      "bandit": [
+        {
+          "final_metrics": {
+            "text_extractor": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9932798196819798,
+              "improvement": 0.21613909248171737
+            },
+            "code_generator": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9999245633495206,
+              "improvement": 0
+            },
+            "agent_reasoner": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9832519903970414,
+              "improvement": 0.3315064312996341
+            }
+          },
+          "best_configurations": {
+            "text_extractor": null,
+            "code_generator": null,
+            "agent_reasoner": null
+          },
+          "resource_allocation": {
+            "text_extractor": 33,
+            "code_generator": 33,
+            "agent_reasoner": 33
+          },
+          "total_budget_used": 99,
+          "strategy": "bandit",
+          "optimization_log": []
+        },
+        {
+          "final_metrics": {
+            "text_extractor": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9918013313231492,
+              "improvement": 0.46699153516266056
+            },
+            "code_generator": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9878606934985392,
+              "improvement": 0
+            },
+            "agent_reasoner": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9951055678466166,
+              "improvement": 0.34649747519932883
+            }
+          },
+          "best_configurations": {
+            "text_extractor": null,
+            "code_generator": null,
+            "agent_reasoner": null
+          },
+          "resource_allocation": {
+            "text_extractor": 33,
+            "code_generator": 33,
+            "agent_reasoner": 33
+          },
+          "total_budget_used": 99,
+          "strategy": "bandit",
+          "optimization_log": []
+        },
+        {
+          "final_metrics": {
+            "text_extractor": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9922493675628519,
+              "improvement": 0
+            },
+            "code_generator": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 1.0,
+              "improvement": 0
+            },
+            "agent_reasoner": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9735142820974972,
+              "improvement": 0.5202510918279586
+            }
+          },
+          "best_configurations": {
+            "text_extractor": null,
+            "code_generator": null,
+            "agent_reasoner": null
+          },
+          "resource_allocation": {
+            "text_extractor": 33,
+            "code_generator": 33,
+            "agent_reasoner": 33
+          },
+          "total_budget_used": 99,
+          "strategy": "bandit",
+          "optimization_log": []
+        }
+      ],
+      "uncertainty": [
+        {
+          "final_metrics": {
+            "text_extractor": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9912758821159046,
+              "improvement": 0.2091319025007795
+            },
+            "code_generator": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9935225786509219,
+              "improvement": 0
+            },
+            "agent_reasoner": {
+              "best_performance": 0.9838661163802096,
+              "trials_allocated": 0,
+              "convergence_score": 0.9777231579742284,
+              "improvement": 0.17176465985392841
+            }
+          },
+          "best_configurations": {
+            "text_extractor": null,
+            "code_generator": null,
+            "agent_reasoner": null
+          },
+          "resource_allocation": {
+            "text_extractor": 33,
+            "code_generator": 33,
+            "agent_reasoner": 33
+          },
+          "total_budget_used": 99,
+          "strategy": "uncertainty",
+          "optimization_log": []
+        },
+        {
+          "final_metrics": {
+            "text_extractor": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9890425656013995,
+              "improvement": 0.353641425728916
+            },
+            "code_generator": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9922379303196286,
+              "improvement": 0
+            },
+            "agent_reasoner": {
+              "best_performance": 0.9811423463727023,
+              "trials_allocated": 0,
+              "convergence_score": 0.9872162504696842,
+              "improvement": 0.16453797303936157
+            }
+          },
+          "best_configurations": {
+            "text_extractor": null,
+            "code_generator": null,
+            "agent_reasoner": null
+          },
+          "resource_allocation": {
+            "text_extractor": 33,
+            "code_generator": 33,
+            "agent_reasoner": 33
+          },
+          "total_budget_used": 99,
+          "strategy": "uncertainty",
+          "optimization_log": []
+        },
+        {
+          "final_metrics": {
+            "text_extractor": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9957514343824618,
+              "improvement": 0
+            },
+            "code_generator": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9998534122975189,
+              "improvement": 0
+            },
+            "agent_reasoner": {
+              "best_performance": 0.9861739951536889,
+              "trials_allocated": 0,
+              "convergence_score": 0.9983275414633848,
+              "improvement": 0.20835023232262118
+            }
+          },
+          "best_configurations": {
+            "text_extractor": null,
+            "code_generator": null,
+            "agent_reasoner": null
+          },
+          "resource_allocation": {
+            "text_extractor": 33,
+            "code_generator": 33,
+            "agent_reasoner": 33
+          },
+          "total_budget_used": 99,
+          "strategy": "uncertainty",
+          "optimization_log": []
+        }
+      ],
+      "bottleneck": [
+        {
+          "final_metrics": {
+            "text_extractor": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9879009765547536,
+              "improvement": 0.1752767558329037
+            },
+            "code_generator": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9988543103929611,
+              "improvement": 0
+            },
+            "agent_reasoner": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9834505088489306,
+              "improvement": 0.4280978212066461
+            }
+          },
+          "best_configurations": {
+            "text_extractor": null,
+            "code_generator": null,
+            "agent_reasoner": null
+          },
+          "resource_allocation": {
+            "text_extractor": 33,
+            "code_generator": 33,
+            "agent_reasoner": 33
+          },
+          "total_budget_used": 99,
+          "strategy": "bottleneck",
+          "optimization_log": []
+        },
+        {
+          "final_metrics": {
+            "text_extractor": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9943770463392116,
+              "improvement": 0.04622762934116964
+            },
+            "code_generator": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9993627883372755,
+              "improvement": 0
+            },
+            "agent_reasoner": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9754602854967063,
+              "improvement": 0.443557844981727
+            }
+          },
+          "best_configurations": {
+            "text_extractor": null,
+            "code_generator": null,
+            "agent_reasoner": null
+          },
+          "resource_allocation": {
+            "text_extractor": 33,
+            "code_generator": 33,
+            "agent_reasoner": 33
+          },
+          "total_budget_used": 99,
+          "strategy": "bottleneck",
+          "optimization_log": []
+        },
+        {
+          "final_metrics": {
+            "text_extractor": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9880985692431161,
+              "improvement": 0.17130150498520413
+            },
+            "code_generator": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9950916892345193,
+              "improvement": 0
+            },
+            "agent_reasoner": {
+              "best_performance": 1,
+              "trials_allocated": 0,
+              "convergence_score": 0.9581092490244585,
+              "improvement": 0.5603946972980814
+            }
+          },
+          "best_configurations": {
+            "text_extractor": null,
+            "code_generator": null,
+            "agent_reasoner": null
+          },
+          "resource_allocation": {
+            "text_extractor": 33,
+            "code_generator": 33,
+            "agent_reasoner": 33
+          },
+          "total_budget_used": 99,
+          "strategy": "bottleneck",
+          "optimization_log": []
+        }
+      ]
+    }
+  },
+  {
+    "test": "budget_scaling",
+    "results": {
+      "100": {
+        "final_metrics": {
+          "text_extractor": {
+            "best_performance": 1,
+            "trials_allocated": 0,
+            "convergence_score": 0.9844200418759791,
+            "improvement": 0.03773588601398248
+          },
+          "code_generator": {
+            "best_performance": 0.9213665754489524,
+            "trials_allocated": 0,
+            "convergence_score": 0.99258422266319,
+            "improvement": 0.366704927892216
+          },
+          "agent_reasoner": {
+            "best_performance": 0.8051343605023278,
+            "trials_allocated": 0,
+            "convergence_score": 0.9805601429075853,
+            "improvement": 0.1217963172977865
+          }
+        },
+        "best_configurations": {
+          "text_extractor": null,
+          "code_generator": null,
+          "agent_reasoner": null
+        },
+        "resource_allocation": {
+          "text_extractor": 6,
+          "code_generator": 6,
+          "agent_reasoner": 6
+        },
+        "total_budget_used": 18,
+        "strategy": "adaptive",
+        "optimization_log": []
+      },
+      "250": {
+        "final_metrics": {
+          "text_extractor": {
+            "best_performance": 1,
+            "trials_allocated": 0,
+            "convergence_score": 0.9950248657230458,
+            "improvement": 0.23595310907782785
+          },
+          "code_generator": {
+            "best_performance": 0.9963931762811304,
+            "trials_allocated": 0,
+            "convergence_score": 0.9766098952605066,
+            "improvement": 0.29006562077880416
+          },
+          "agent_reasoner": {
+            "best_performance": 0.9464724056377428,
+            "trials_allocated": 0,
+            "convergence_score": 0.9844858113515279,
+            "improvement": 0.2542532049679851
+          }
+        },
+        "best_configurations": {
+          "text_extractor": null,
+          "code_generator": null,
+          "agent_reasoner": null
+        },
+        "resource_allocation": {
+          "text_extractor": 16,
+          "code_generator": 16,
+          "agent_reasoner": 16
+        },
+        "total_budget_used": 48,
+        "strategy": "adaptive",
+        "optimization_log": []
+      },
+      "500": {
+        "final_metrics": {
+          "text_extractor": {
+            "best_performance": 1,
+            "trials_allocated": 0,
+            "convergence_score": 0.9938149859468741,
+            "improvement": 0
+          },
+          "code_generator": {
+            "best_performance": 0.9682701516466057,
+            "trials_allocated": 0,
+            "convergence_score": 0.985837576590161,
+            "improvement": 0.17343289994346567
+          },
+          "agent_reasoner": {
+            "best_performance": 1,
+            "trials_allocated": 0,
+            "convergence_score": 0.9936451411481272,
+            "improvement": 0.23603493795246044
+          }
+        },
+        "best_configurations": {
+          "text_extractor": null,
+          "code_generator": null,
+          "agent_reasoner": null
+        },
+        "resource_allocation": {
+          "text_extractor": 33,
+          "code_generator": 33,
+          "agent_reasoner": 33
+        },
+        "total_budget_used": 99,
+        "strategy": "adaptive",
+        "optimization_log": []
+      },
+      "1000": {
+        "final_metrics": {
+          "text_extractor": {
+            "best_performance": 1,
+            "trials_allocated": 0,
+            "convergence_score": 0.9869983102641887,
+            "improvement": 0.24459305072409132
+          },
+          "code_generator": {
+            "best_performance": 0.9461166744584479,
+            "trials_allocated": 0,
+            "convergence_score": 0.9938830680958524,
+            "improvement": 0.2475073670205976
+          },
+          "agent_reasoner": {
+            "best_performance": 0.9695658308194405,
+            "trials_allocated": 0,
+            "convergence_score": 0.9937800441909923,
+            "improvement": 0.18288851217170599
+          }
+        },
+        "best_configurations": {
+          "text_extractor": null,
+          "code_generator": null,
+          "agent_reasoner": null
+        },
+        "resource_allocation": {
+          "text_extractor": 66,
+          "code_generator": 66,
+          "agent_reasoner": 66
+        },
+        "total_budget_used": 198,
+        "strategy": "adaptive",
+        "optimization_log": []
+      },
+      "2000": {
+        "final_metrics": {
+          "text_extractor": {
+            "best_performance": 1,
+            "trials_allocated": 0,
+            "convergence_score": 0.9854618742779138,
+            "improvement": 0.2350739616093278
+          },
+          "code_generator": {
+            "best_performance": 0.9871674414941023,
+            "trials_allocated": 0,
+            "convergence_score": 0.9871432324246733,
+            "improvement": 0.2804140158174434
+          },
+          "agent_reasoner": {
+            "best_performance": 1,
+            "trials_allocated": 0,
+            "convergence_score": 0.9819478888166537,
+            "improvement": 0.3082275577521436
+          }
+        },
+        "best_configurations": {
+          "text_extractor": null,
+          "code_generator": null,
+          "agent_reasoner": null
+        },
+        "resource_allocation": {
+          "text_extractor": 133,
+          "code_generator": 133,
+          "agent_reasoner": 133
+        },
+        "total_budget_used": 399,
+        "strategy": "adaptive",
+        "optimization_log": []
+      }
+    }
+  },
+  {
+    "test": "pipeline_complexity",
+    "results": {
+      "balanced": {
+        "final_metrics": {
+          "text_extractor": {
+            "best_performance": 1,
+            "trials_allocated": 0,
+            "convergence_score": 0.9870877377087469,
+            "improvement": 0.23649231975577978
+          },
+          "code_generator": {
+            "best_performance": 1,
+            "trials_allocated": 0,
+            "convergence_score": 0.9937564714826218,
+            "improvement": 0.3762251533176031
+          },
+          "agent_reasoner": {
+            "best_performance": 1,
+            "trials_allocated": 0,
+            "convergence_score": 0.9803798734793907,
+            "improvement": 0.5089907230628319
+          }
+        },
+        "best_configurations": {
+          "text_extractor": null,
+          "code_generator": null,
+          "agent_reasoner": null
+        },
+        "resource_allocation": {
+          "text_extractor": 66,
+          "code_generator": 66,
+          "agent_reasoner": 66
+        },
+        "total_budget_used": 198,
+        "strategy": "adaptive",
+        "optimization_log": []
+      },
+      "bottleneck": {
+        "final_metrics": {
+          "text_extractor": {
+            "best_performance": 1,
+            "trials_allocated": 0,
+            "convergence_score": 0.9941091641672763,
+            "improvement": 0
+          },
+          "code_generator": {
+            "best_performance": 1,
+            "trials_allocated": 0,
+            "convergence_score": 0.9993849747031567,
+            "improvement": 0.0661510667701104
+          },
+          "agent_reasoner": {
+            "best_performance": 1,
+            "trials_allocated": 0,
+            "convergence_score": 0.9864584923770233,
+            "improvement": 0.24563568560834748
+          }
+        },
+        "best_configurations": {
+          "text_extractor": null,
+          "code_generator": null,
+          "agent_reasoner": null
+        },
+        "resource_allocation": {
+          "text_extractor": 66,
+          "code_generator": 66,
+          "agent_reasoner": 66
+        },
+        "total_budget_used": 198,
+        "strategy": "adaptive",
+        "optimization_log": []
+      },
+      "complex": {
+        "final_metrics": {
+          "text_extractor": {
+            "best_performance": 1,
+            "trials_allocated": 0,
+            "convergence_score": 0.9894306520997536,
+            "improvement": 0.18205527494454743
+          },
+          "code_generator": {
+            "best_performance": 1,
+            "trials_allocated": 0,
+            "convergence_score": 0.9842204178763517,
+            "improvement": 0.05052179975992288
+          },
+          "agent_reasoner": {
+            "best_performance": 1,
+            "trials_allocated": 0,
+            "convergence_score": 0.9835019473465497,
+            "improvement": 0
+          }
+        },
+        "best_configurations": {
+          "text_extractor": null,
+          "code_generator": null,
+          "agent_reasoner": null
+        },
+        "resource_allocation": {
+          "text_extractor": 66,
+          "code_generator": 66,
+          "agent_reasoner": 66
+        },
+        "total_budget_used": 198,
+        "strategy": "adaptive",
+        "optimization_log": []
+      }
+    }
+  }
+]

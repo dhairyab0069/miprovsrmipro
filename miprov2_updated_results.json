@@ -1,0 +1,1975 @@
+{
+  "mean_best_score": 0.9563679010571958,
+  "std_best_score": 0.03146860314326931,
+  "mean_time": 0.2004540761311849,
+  "all_results": [
+    {
+      "method": "MIPROv2",
+      "elapsed_time": 0.20805811882019043,
+      "total_trials": 48,
+      "module_results": {
+        "text_extractor": {
+          "best_score": 0.7813717364576455,
+          "best_config": {
+            "instruction_quality": 0.715,
+            "few_shot_count": 0,
+            "temperature": 0.7778313207178196,
+            "reasoning_depth": 0.07455064367977082,
+            "response_format": "concise"
+          },
+          "instruction": "Produce a suitable response following the guidelines. Provide comprehensive analysis with clear reasoning and ensure accuracy in your response.",
+          "num_examples": 0,
+          "temperature": 0.7778313207178196,
+          "metadata": {
+            "temperature": 0.7778313207178196,
+            "num_demos": 2,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.07455064367977082,
+            "response_format": "concise"
+          }
+        },
+        "code_generator": {
+          "best_score": 0.9421406217145354,
+          "best_config": {
+            "instruction_quality": 0.69,
+            "few_shot_count": 0,
+            "temperature": 0.7554249877397192,
+            "reasoning_depth": 0.2124225000662676,
+            "response_format": "standard"
+          },
+          "instruction": "Create appropriate output for the given context. Provide comprehensive analysis with clear reasoning and ensure accuracy in your response.",
+          "num_examples": 0,
+          "temperature": 0.7554249877397192,
+          "metadata": {
+            "temperature": 0.7554249877397192,
+            "num_demos": 3,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.2124225000662676,
+            "response_format": "standard"
+          }
+        },
+        "reasoner": {
+          "best_score": 0.9421406217145354,
+          "best_config": {
+            "instruction_quality": 0.69,
+            "few_shot_count": 0,
+            "temperature": 0.7554249877397192,
+            "reasoning_depth": 0.2124225000662676,
+            "response_format": "standard"
+          },
+          "instruction": "Create appropriate output for the given context. Provide comprehensive analysis with clear reasoning and ensure accuracy in your response.",
+          "num_examples": 0,
+          "temperature": 0.7554249877397192,
+          "metadata": {
+            "temperature": 0.7554249877397192,
+            "num_demos": 3,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.2124225000662676,
+            "response_format": "standard"
+          }
+        }
+      },
+      "overall_stats": {
+        "mean_score": 0.6008606070385889,
+        "best_score": 0.9421406217145354,
+        "std_score": 0.17825618401211957
+      },
+      "config": {
+        "num_candidates": 10,
+        "max_bootstrapped_demos": 8,
+        "minibatch": true,
+        "minibatch_size": 25
+      },
+      "evaluation_history": [
+        {
+          "module_id": "text_extractor",
+          "trial": 0,
+          "score": 0.6778357076505617,
+          "params": {
+            "temperature": 0.8116262258099887,
+            "num_demos": 8,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.15599452033620265,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 1,
+          "score": 0.6410867849414408,
+          "params": {
+            "temperature": 1.4453378978124864,
+            "num_demos": 0,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.18182496720710062,
+            "response_format": "detailed"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 2,
+          "score": 0.6853844269050346,
+          "params": {
+            "temperature": 0.9206955354200199,
+            "num_demos": 2,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.3663618432936917,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 3,
+          "score": 0.7521514928204012,
+          "params": {
+            "temperature": 1.077045432985862,
+            "num_demos": 5,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.06505159298527952,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 4,
+          "score": 0.6412923312638332,
+          "params": {
+            "temperature": 0.6787661614294043,
+            "num_demos": 0,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.4951769101112702,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 5,
+          "score": 0.6592931521525409,
+          "params": {
+            "temperature": 1.3587923402725657,
+            "num_demos": 2,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.9695846277645586,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 6,
+          "score": 0.7409606407753695,
+          "params": {
+            "temperature": 1.2360099597410616,
+            "num_demos": 8,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.32533033076326434,
+            "response_format": "detailed"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 7,
+          "score": 0.7813717364576455,
+          "params": {
+            "temperature": 0.7778313207178196,
+            "num_demos": 2,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.07455064367977082,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 8,
+          "score": 0.7145262807032524,
+          "params": {
+            "temperature": 0.11049202253484457,
+            "num_demos": 7,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.07404465173409036,
+            "response_format": "detailed"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 9,
+          "score": 0.7561280021792982,
+          "params": {
+            "temperature": 1.28426644097236,
+            "num_demos": 2,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.7296061783380641,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 10,
+          "score": 0.7148291153593769,
+          "params": {
+            "temperature": 1.895759434037735,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.6966980619768638,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 11,
+          "score": 0.7057135123214872,
+          "params": {
+            "temperature": 0.3114383392890406,
+            "num_demos": 2,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.7446608994507355,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 12,
+          "score": 0.7410981135783017,
+          "params": {
+            "temperature": 1.6855852947708834,
+            "num_demos": 3,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.7244570763154758,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 13,
+          "score": 0.6333359877671101,
+          "params": {
+            "temperature": 0.5561265079634417,
+            "num_demos": 1,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.9153746677805511,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 14,
+          "score": 0.6427541083743483,
+          "params": {
+            "temperature": 1.0913558007735351,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.5917382680990949,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 15,
+          "score": 0.7148856235379514,
+          "params": {
+            "temperature": 1.563299236953679,
+            "num_demos": 6,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.8469961233886657,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 16,
+          "score": 0.21074756000762207,
+          "params": {
+            "temperature": 1.9987886334189473,
+            "num_demos": 3,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.5153668991174851,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 17,
+          "score": 0.7840247254305943,
+          "params": {
+            "temperature": 0.5238042269237502,
+            "num_demos": 1,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.3388840963745925,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 18,
+          "score": 0.684220965864909,
+          "params": {
+            "temperature": 0.46548376931795143,
+            "num_demos": 1,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.2942416004428994,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 19,
+          "score": 0.47770315513404515,
+          "params": {
+            "temperature": 0.3232136610081575,
+            "num_demos": 1,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.010989189243771347,
+            "response_format": "detailed"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 20,
+          "score": 0.9421406217145354,
+          "params": {
+            "temperature": 0.7554249877397192,
+            "num_demos": 3,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.2124225000662676,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 21,
+          "score": 0.7957801101094416,
+          "params": {
+            "temperature": 0.7814657846573208,
+            "num_demos": 3,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.22105543970009445,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 22,
+          "score": 0.8104359350865491,
+          "params": {
+            "temperature": 0.6347120372783353,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.2474804568228718,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 23,
+          "score": 0.6500240100154454,
+          "params": {
+            "temperature": 0.9178589575168603,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.2332241238636711,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 24,
+          "score": 0.7605495379670174,
+          "params": {
+            "temperature": 0.632468531432425,
+            "num_demos": 5,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.4156156974508064,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 25,
+          "score": 0.7630094994775368,
+          "params": {
+            "temperature": 0.9222166612429334,
+            "num_demos": 3,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.2391599119875382,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 26,
+          "score": 0.6258875427251679,
+          "params": {
+            "temperature": 0.37475397461850274,
+            "num_demos": 5,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.15401879117971512,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 27,
+          "score": 0.8358523660461071,
+          "params": {
+            "temperature": 0.7634546393211885,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.4189149698739336,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 28,
+          "score": 0.6875691327804514,
+          "params": {
+            "temperature": 0.6967975786480884,
+            "num_demos": 6,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.5463938139039269,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 29,
+          "score": 0.5145065457901451,
+          "params": {
+            "temperature": 1.1328611719883235,
+            "num_demos": 4,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.44639876282017127,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 30,
+          "score": 0.46028639486358247,
+          "params": {
+            "temperature": 0.18141877576321164,
+            "num_demos": 5,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.4107571971588241,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 31,
+          "score": 0.9326149971196276,
+          "params": {
+            "temperature": 0.8507950439441001,
+            "num_demos": 3,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.15972834947724396,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 32,
+          "score": 0.43702024075169493,
+          "params": {
+            "temperature": 0.854199090093526,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.148720787695691,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 33,
+          "score": 0.3787972092315007,
+          "params": {
+            "temperature": 0.936141903742904,
+            "num_demos": 3,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.29569336408073654,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 34,
+          "score": 0.519855110642764,
+          "params": {
+            "temperature": 0.6263870823106834,
+            "num_demos": 6,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.1362341283784243,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 35,
+          "score": 0.3026097638341846,
+          "params": {
+            "temperature": 0.7678258991303095,
+            "num_demos": 3,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.2572305086592374,
+            "response_format": "detailed"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 36,
+          "score": 0.5177960144168012,
+          "params": {
+            "temperature": 0.4544773041326516,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.3756188175051381,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 37,
+          "score": 0.23150786994141423,
+          "params": {
+            "temperature": 1.0427011930847165,
+            "num_demos": 5,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.18075580479863013,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 38,
+          "score": 0.26749752416421413,
+          "params": {
+            "temperature": 1.0183266434406746,
+            "num_demos": 3,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.004052936590477091,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 39,
+          "score": 0.44380815876518664,
+          "params": {
+            "temperature": 1.1942165621979406,
+            "num_demos": 2,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.08434278034361639,
+            "response_format": "detailed"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 40,
+          "score": 0.5328119848949857,
+          "params": {
+            "temperature": 0.703143677135123,
+            "num_demos": 0,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.47552682980197314,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 41,
+          "score": 0.47599370288742826,
+          "params": {
+            "temperature": 0.7810274678173063,
+            "num_demos": 3,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.2281274215830667,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 42,
+          "score": 0.4182594131838985,
+          "params": {
+            "temperature": 0.8333336295106208,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.11559783497179268,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 43,
+          "score": 0.43256206468044267,
+          "params": {
+            "temperature": 0.5615629295103173,
+            "num_demos": 2,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.2191343854523481,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 44,
+          "score": 0.3415241222756225,
+          "params": {
+            "temperature": 0.7227991364406203,
+            "num_demos": 3,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.31250461997330503,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 45,
+          "score": 0.3798901466960365,
+          "params": {
+            "temperature": 0.9590534870145219,
+            "num_demos": 5,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.20106421525390453,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 46,
+          "score": 0.4479534989670116,
+          "params": {
+            "temperature": 0.8501615111379782,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.36440843435267556,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 47,
+          "score": 0.5754221955983513,
+          "params": {
+            "temperature": 0.5880867776599505,
+            "num_demos": 2,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.2701936937072078,
+            "response_format": "detailed"
+          }
+        }
+      ]
+    },
+    {
+      "method": "MIPROv2",
+      "elapsed_time": 0.19721412658691406,
+      "total_trials": 48,
+      "module_results": {
+        "text_extractor": {
+          "best_score": 0.7895640059558099,
+          "best_config": {
+            "instruction_quality": 0.715,
+            "few_shot_count": 0,
+            "temperature": 0.6516322777644376,
+            "reasoning_depth": 0.31026952684458975,
+            "response_format": "standard"
+          },
+          "instruction": "Produce a suitable response following the guidelines. Provide comprehensive analysis with clear reasoning and ensure accuracy in your response.",
+          "num_examples": 0,
+          "temperature": 0.6516322777644376,
+          "metadata": {
+            "temperature": 0.6516322777644376,
+            "num_demos": 5,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.31026952684458975,
+            "response_format": "standard"
+          }
+        },
+        "code_generator": {
+          "best_score": 0.9269630814570522,
+          "best_config": {
+            "instruction_quality": 0.69,
+            "few_shot_count": 0,
+            "temperature": 0.770570770458778,
+            "reasoning_depth": 0.3807334735992004,
+            "response_format": "standard"
+          },
+          "instruction": "Create appropriate output for the given context. Provide comprehensive analysis with clear reasoning and ensure accuracy in your response.",
+          "num_examples": 0,
+          "temperature": 0.770570770458778,
+          "metadata": {
+            "temperature": 0.770570770458778,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.3807334735992004,
+            "response_format": "standard"
+          }
+        },
+        "reasoner": {
+          "best_score": 0.9269630814570522,
+          "best_config": {
+            "instruction_quality": 0.69,
+            "few_shot_count": 0,
+            "temperature": 0.770570770458778,
+            "reasoning_depth": 0.3807334735992004,
+            "response_format": "standard"
+          },
+          "instruction": "Create appropriate output for the given context. Provide comprehensive analysis with clear reasoning and ensure accuracy in your response.",
+          "num_examples": 0,
+          "temperature": 0.770570770458778,
+          "metadata": {
+            "temperature": 0.770570770458778,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.3807334735992004,
+            "response_format": "standard"
+          }
+        }
+      },
+      "overall_stats": {
+        "mean_score": 0.6507434900285259,
+        "best_score": 0.9269630814570522,
+        "std_score": 0.11959646249083095
+      },
+      "config": {
+        "num_candidates": 10,
+        "max_bootstrapped_demos": 8,
+        "minibatch": true,
+        "minibatch_size": 25
+      },
+      "evaluation_history": [
+        {
+          "module_id": "text_extractor",
+          "trial": 0,
+          "score": 0.7601809144784231,
+          "params": {
+            "temperature": 0.31860367614058,
+            "num_demos": 5,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.8591374909485977,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 1,
+          "score": 0.5508479922318633,
+          "params": {
+            "temperature": 1.4941217629325374,
+            "num_demos": 3,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.8666486408992002,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 2,
+          "score": 0.6922041984697397,
+          "params": {
+            "temperature": 0.2456591299932498,
+            "num_demos": 7,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.9544881251086652,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 3,
+          "score": 0.7187458859791842,
+          "params": {
+            "temperature": 1.804487301964915,
+            "num_demos": 2,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.47559636700725316,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 4,
+          "score": 0.695153899984702,
+          "params": {
+            "temperature": 1.8292908439822975,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.41195298338635866,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 5,
+          "score": 0.7685838144420434,
+          "params": {
+            "temperature": 0.623561675633009,
+            "num_demos": 8,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.7357270815071207,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 6,
+          "score": 0.7275499761247974,
+          "params": {
+            "temperature": 1.4812771847391781,
+            "num_demos": 3,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.540034464181656,
+            "response_format": "detailed"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 7,
+          "score": 0.7895640059558099,
+          "params": {
+            "temperature": 0.6516322777644376,
+            "num_demos": 5,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.31026952684458975,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 8,
+          "score": 0.687039123838868,
+          "params": {
+            "temperature": 1.5207641624064399,
+            "num_demos": 6,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.5033396328927818,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 9,
+          "score": 0.6555393812074392,
+          "params": {
+            "temperature": 1.9342763051868002,
+            "num_demos": 8,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.06372056831731454,
+            "response_format": "detailed"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 10,
+          "score": 0.6695631715701782,
+          "params": {
+            "temperature": 0.8246008120573801,
+            "num_demos": 0,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.1400220293491061,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 11,
+          "score": 0.786777256356118,
+          "params": {
+            "temperature": 0.7364479208298109,
+            "num_demos": 8,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.7088786372382878,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 12,
+          "score": 0.7140412881077355,
+          "params": {
+            "temperature": 0.9497285792564963,
+            "num_demos": 6,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.2822548869546162,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 13,
+          "score": 0.7337170511668092,
+          "params": {
+            "temperature": 0.5557239884083627,
+            "num_demos": 6,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.651304784695978,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 14,
+          "score": 0.6736832512996985,
+          "params": {
+            "temperature": 1.162229406451833,
+            "num_demos": 1,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.25156359047079957,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 15,
+          "score": 0.5931896687959665,
+          "params": {
+            "temperature": 0.5740367669286558,
+            "num_demos": 5,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.6688500762015928,
+            "response_format": "detailed"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 16,
+          "score": 0.7173734745466559,
+          "params": {
+            "temperature": 1.1621136050091463,
+            "num_demos": 7,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.3101874057805314,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 17,
+          "score": 0.9269630814570522,
+          "params": {
+            "temperature": 0.770570770458778,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.3807334735992004,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 18,
+          "score": 0.5948668470593608,
+          "params": {
+            "temperature": 0.38810471272003233,
+            "num_demos": 4,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.1786064262676862,
+            "response_format": "detailed"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 19,
+          "score": 0.662818868043369,
+          "params": {
+            "temperature": 1.0246009887489012,
+            "num_demos": 3,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.017965626376796218,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 20,
+          "score": 0.6310374541152425,
+          "params": {
+            "temperature": 0.1044939867306548,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.3472227087644873,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 21,
+          "score": 0.8014738629048277,
+          "params": {
+            "temperature": 0.7100689450122754,
+            "num_demos": 5,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.5921732855240838,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 22,
+          "score": 0.7961712134854829,
+          "params": {
+            "temperature": 0.8560692981379239,
+            "num_demos": 5,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.577299870064906,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 23,
+          "score": 0.8713242704374242,
+          "params": {
+            "temperature": 0.9016790552267564,
+            "num_demos": 5,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.5812543098296948,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 24,
+          "score": 0.5897302256211386,
+          "params": {
+            "temperature": 1.2758319905072464,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.4279744761361871,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 25,
+          "score": 0.8699888524015325,
+          "params": {
+            "temperature": 0.910003941513069,
+            "num_demos": 3,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.5997856158577191,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 26,
+          "score": 0.5477189125019079,
+          "params": {
+            "temperature": 0.9147606769705623,
+            "num_demos": 2,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.7884777924317968,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 27,
+          "score": 0.7391507348157408,
+          "params": {
+            "temperature": 1.1125447089445475,
+            "num_demos": 2,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.42715680931784106,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 28,
+          "score": 0.5075478539633543,
+          "params": {
+            "temperature": 1.3411941137233967,
+            "num_demos": 3,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.587425987160574,
+            "response_format": "detailed"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 29,
+          "score": 0.5560698329805911,
+          "params": {
+            "temperature": 0.3899487791895707,
+            "num_demos": 1,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.8100468372678796,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 30,
+          "score": 0.7469293237000868,
+          "params": {
+            "temperature": 0.4774296120577905,
+            "num_demos": 3,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.3748521929549556,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 31,
+          "score": 0.6407970681994873,
+          "params": {
+            "temperature": 0.7778596939015653,
+            "num_demos": 5,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.6179634129983571,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 32,
+          "score": 0.5219107385221398,
+          "params": {
+            "temperature": 1.0102827998799988,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.5030696758947236,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 33,
+          "score": 0.6893001153382768,
+          "params": {
+            "temperature": 0.6629103985834321,
+            "num_demos": 6,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.9188002108228341,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 34,
+          "score": 0.7103013398592257,
+          "params": {
+            "temperature": 0.7525747372541163,
+            "num_demos": 5,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.5682235502974622,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 35,
+          "score": 0.4771685208201245,
+          "params": {
+            "temperature": 0.888093766084425,
+            "num_demos": 7,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.4673751545198884,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 36,
+          "score": 0.5195359074250527,
+          "params": {
+            "temperature": 0.47897026229078615,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.7260335786752591,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 37,
+          "score": 0.4283784103407999,
+          "params": {
+            "temperature": 0.25298138514203194,
+            "num_demos": 5,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.6335009249939798,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 38,
+          "score": 0.5324314991455796,
+          "params": {
+            "temperature": 0.7052165257664734,
+            "num_demos": 2,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.5242472740432331,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 39,
+          "score": 0.6872221712591364,
+          "params": {
+            "temperature": 1.2786740086597699,
+            "num_demos": 3,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.9858413189657677,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 40,
+          "score": 0.5690151888420252,
+          "params": {
+            "temperature": 1.0914792021252322,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.8043159754301779,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 41,
+          "score": 0.6015305314815271,
+          "params": {
+            "temperature": 0.8611728851651477,
+            "num_demos": 5,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.5821852254658587,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 42,
+          "score": 0.5262048990725665,
+          "params": {
+            "temperature": 0.9605343965836882,
+            "num_demos": 5,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.45153931836342026,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 43,
+          "score": 0.6887898303703766,
+          "params": {
+            "temperature": 0.8358847628805396,
+            "num_demos": 6,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.6953816352068392,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 44,
+          "score": 0.4721499568720155,
+          "params": {
+            "temperature": 0.6098021955722845,
+            "num_demos": 7,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.5517645979060104,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 45,
+          "score": 0.49423114456739947,
+          "params": {
+            "temperature": 0.8187256761783059,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.4922378264619233,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 46,
+          "score": 0.45360055258558896,
+          "params": {
+            "temperature": 0.9935904619777061,
+            "num_demos": 6,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.6106011045973991,
+            "response_format": "detailed"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 47,
+          "score": 0.4475739586247761,
+          "params": {
+            "temperature": 1.670519919900864,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.7516490443332865,
+            "response_format": "standard"
+          }
+        }
+      ]
+    },
+    {
+      "method": "MIPROv2",
+      "elapsed_time": 0.1960899829864502,
+      "total_trials": 48,
+      "module_results": {
+        "text_extractor": {
+          "best_score": 0.8323092950605265,
+          "best_config": {
+            "instruction_quality": 0.69,
+            "few_shot_count": 0,
+            "temperature": 0.7165470807659032,
+            "reasoning_depth": 0.6993343334769313,
+            "response_format": "concise"
+          },
+          "instruction": "Create appropriate output for the given context. Provide comprehensive analysis with clear reasoning and ensure accuracy in your response.",
+          "num_examples": 0,
+          "temperature": 0.7165470807659032,
+          "metadata": {
+            "temperature": 0.7165470807659032,
+            "num_demos": 7,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.6993343334769313,
+            "response_format": "concise"
+          }
+        },
+        "code_generator": {
+          "best_score": 1,
+          "best_config": {
+            "instruction_quality": 0.645,
+            "few_shot_count": 0,
+            "temperature": 0.640076631654249,
+            "reasoning_depth": 0.5526287856490675,
+            "response_format": "concise"
+          },
+          "instruction": "Generate a response based on the input. Provide comprehensive analysis with clear reasoning and ensure accuracy in your response.",
+          "num_examples": 0,
+          "temperature": 0.640076631654249,
+          "metadata": {
+            "temperature": 0.640076631654249,
+            "num_demos": 6,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.5526287856490675,
+            "response_format": "concise"
+          }
+        },
+        "reasoner": {
+          "best_score": 1,
+          "best_config": {
+            "instruction_quality": 0.645,
+            "few_shot_count": 0,
+            "temperature": 0.640076631654249,
+            "reasoning_depth": 0.5526287856490675,
+            "response_format": "concise"
+          },
+          "instruction": "Generate a response based on the input. Provide comprehensive analysis with clear reasoning and ensure accuracy in your response.",
+          "num_examples": 0,
+          "temperature": 0.640076631654249,
+          "metadata": {
+            "temperature": 0.640076631654249,
+            "num_demos": 6,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.5526287856490675,
+            "response_format": "concise"
+          }
+        }
+      },
+      "overall_stats": {
+        "mean_score": 0.6333985327522172,
+        "best_score": 1,
+        "std_score": 0.15640008145203285
+      },
+      "config": {
+        "num_candidates": 10,
+        "max_bootstrapped_demos": 8,
+        "minibatch": true,
+        "minibatch_size": 25
+      },
+      "evaluation_history": [
+        {
+          "module_id": "text_extractor",
+          "trial": 0,
+          "score": 0.6628060138532288,
+          "params": {
+            "temperature": 1.6862000824647339,
+            "num_demos": 0,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.6092383806181517,
+            "response_format": "detailed"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 1,
+          "score": 0.6660527636089945,
+          "params": {
+            "temperature": 1.4492811873214395,
+            "num_demos": 8,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.21789886934652414,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 2,
+          "score": 0.653255672832123,
+          "params": {
+            "temperature": 1.3281800685664475,
+            "num_demos": 1,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.8738631851563182,
+            "response_format": "detailed"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 3,
+          "score": 0.6502706433312425,
+          "params": {
+            "temperature": 0.38281131978401595,
+            "num_demos": 5,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.20293759300016712,
+            "response_format": "detailed"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 4,
+          "score": 0.6582314628974792,
+          "params": {
+            "temperature": 1.6295326811028592,
+            "num_demos": 3,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.07250781339763612,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 5,
+          "score": 0.6179677338617321,
+          "params": {
+            "temperature": 1.449438299276273,
+            "num_demos": 6,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.4564964172374024,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 6,
+          "score": 0.6308642741736615,
+          "params": {
+            "temperature": 1.9701396632823713,
+            "num_demos": 2,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.31735340266931933,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 7,
+          "score": 0.7028861365389191,
+          "params": {
+            "temperature": 1.179343208550369,
+            "num_demos": 0,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.9017439796658578,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 8,
+          "score": 0.7349357144166996,
+          "params": {
+            "temperature": 0.1715925554251155,
+            "num_demos": 2,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.6324318250021735,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 9,
+          "score": 0.668202542840727,
+          "params": {
+            "temperature": 0.3068826310518376,
+            "num_demos": 4,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.11267987808523783,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 10,
+          "score": 0.8323092950605265,
+          "params": {
+            "temperature": 0.7165470807659032,
+            "num_demos": 7,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.6993343334769313,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 11,
+          "score": 0.737728890641592,
+          "params": {
+            "temperature": 0.8372172476713521,
+            "num_demos": 7,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.6953311198137645,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 12,
+          "score": 0.7508775195361382,
+          "params": {
+            "temperature": 0.7401128999851723,
+            "num_demos": 8,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.7503651867646566,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 13,
+          "score": 0.7342777042116916,
+          "params": {
+            "temperature": 0.8517380432778054,
+            "num_demos": 8,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.7781178659194832,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 14,
+          "score": 0.5660614392350478,
+          "params": {
+            "temperature": 0.6392776414929975,
+            "num_demos": 6,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.49105301397537565,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "text_extractor",
+          "trial": 15,
+          "score": 0.7366743062275392,
+          "params": {
+            "temperature": 0.5750570997815532,
+            "num_demos": 7,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.9732152848569067,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 16,
+          "score": 0.7339730126455212,
+          "params": {
+            "temperature": 0.9991495314899952,
+            "num_demos": 8,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.8001072326756242,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 17,
+          "score": 1,
+          "params": {
+            "temperature": 0.640076631654249,
+            "num_demos": 6,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.5526287856490675,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 18,
+          "score": 0.6271280079843955,
+          "params": {
+            "temperature": 0.46564134423436454,
+            "num_demos": 6,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.36517405550575677,
+            "response_format": "detailed"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 19,
+          "score": 0.734313554401304,
+          "params": {
+            "temperature": 1.0258138448500351,
+            "num_demos": 5,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.5888122807798286,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 20,
+          "score": 0.6376849267324283,
+          "params": {
+            "temperature": 0.23920179838704125,
+            "num_demos": 4,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.394565772859808,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 21,
+          "score": 0.7488200469335928,
+          "params": {
+            "temperature": 0.7351894333026467,
+            "num_demos": 7,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.7365742801207316,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 22,
+          "score": 0.8707156673169508,
+          "params": {
+            "temperature": 0.5177976257423585,
+            "num_demos": 7,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.5598666966446292,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 23,
+          "score": 0.8252833403914105,
+          "params": {
+            "temperature": 0.5036980145602749,
+            "num_demos": 5,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.5575185035875154,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 24,
+          "score": 0.8118654789621881,
+          "params": {
+            "temperature": 0.9009542821467333,
+            "num_demos": 7,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.5350469994577244,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 25,
+          "score": 0.4434848216658,
+          "params": {
+            "temperature": 0.11862000013569418,
+            "num_demos": 6,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.6732460624412039,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 26,
+          "score": 0.9255423798996761,
+          "params": {
+            "temperature": 0.6546234920086232,
+            "num_demos": 7,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.4574260223346853,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 27,
+          "score": 0.592503085449655,
+          "params": {
+            "temperature": 0.3934659227902848,
+            "num_demos": 5,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.44023679137035876,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 28,
+          "score": 0.6961561143627062,
+          "params": {
+            "temperature": 1.1695720253213469,
+            "num_demos": 6,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.3306905734020258,
+            "response_format": "detailed"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 29,
+          "score": 0.8673675860268085,
+          "params": {
+            "temperature": 0.6019816871723281,
+            "num_demos": 7,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.27536321116547685,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 30,
+          "score": 0.6591762133753511,
+          "params": {
+            "temperature": 0.4746193688675948,
+            "num_demos": 8,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.6191707724111106,
+            "response_format": "detailed"
+          }
+        },
+        {
+          "module_id": "code_generator",
+          "trial": 31,
+          "score": 0.6443698087805162,
+          "params": {
+            "temperature": 0.5952284340443469,
+            "num_demos": 7,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.274871321678942,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 32,
+          "score": 0.4461021834398772,
+          "params": {
+            "temperature": 0.678761841056116,
+            "num_demos": 6,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.23774372980995406,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 33,
+          "score": 0.3497124324347121,
+          "params": {
+            "temperature": 0.30575979182473106,
+            "num_demos": 8,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.00039472267323692467,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 34,
+          "score": 0.3230983328146166,
+          "params": {
+            "temperature": 0.5565393815369359,
+            "num_demos": 7,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.5142412889554593,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 35,
+          "score": 0.42426969684305454,
+          "params": {
+            "temperature": 0.8636205553948739,
+            "num_demos": 5,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.16427735247595998,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 36,
+          "score": 0.3479956659443275,
+          "params": {
+            "temperature": 0.35064394061730375,
+            "num_demos": 7,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.43730675255595136,
+            "response_format": "detailed"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 37,
+          "score": 0.48838486068720766,
+          "params": {
+            "temperature": 0.45480691309043053,
+            "num_demos": 6,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.38703412852537267,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 38,
+          "score": 0.44880201272289555,
+          "params": {
+            "temperature": 0.7903848707514017,
+            "num_demos": 8,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.4921134130988667,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 39,
+          "score": 0.596752627161497,
+          "params": {
+            "temperature": 1.1576880496885513,
+            "num_demos": 3,
+            "instruction_detail": "moderate",
+            "reasoning_depth": 0.29407877929396464,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 40,
+          "score": 0.3771389318948773,
+          "params": {
+            "temperature": 1.3778454604687875,
+            "num_demos": 6,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.20095746785688762,
+            "response_format": "standard"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 41,
+          "score": 0.5368588330237554,
+          "params": {
+            "temperature": 0.6802090233834189,
+            "num_demos": 7,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.65529063815629,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 42,
+          "score": 0.6313830876106561,
+          "params": {
+            "temperature": 0.6304555373149312,
+            "num_demos": 7,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.5815169219910433,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 43,
+          "score": 0.49789510880612886,
+          "params": {
+            "temperature": 0.9460630173228024,
+            "num_demos": 8,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.8565175986415671,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 44,
+          "score": 0.4902405685898716,
+          "params": {
+            "temperature": 1.970461299081872,
+            "num_demos": 7,
+            "instruction_detail": "minimal",
+            "reasoning_depth": 0.7030684909318605,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 45,
+          "score": 0.6910099705983372,
+          "params": {
+            "temperature": 0.7630161183344688,
+            "num_demos": 6,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.6213011440701335,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 46,
+          "score": 0.36033623831876016,
+          "params": {
+            "temperature": 0.5364701678276022,
+            "num_demos": 0,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.46932000687939107,
+            "response_format": "concise"
+          }
+        },
+        {
+          "module_id": "reasoner",
+          "trial": 47,
+          "score": 0.5713628630202107,
+          "params": {
+            "temperature": 0.3909606922989787,
+            "num_demos": 8,
+            "instruction_detail": "detailed",
+            "reasoning_depth": 0.534613556527903,
+            "response_format": "concise"
+          }
+        }
+      ]
+    }
+  ]
+}

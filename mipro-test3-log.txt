@@ -1,0 +1,45 @@
+INFO:__main__:Starting MIPROv2 comparison study
+INFO:__main__:
+--- Run 1/3 ---
+INFO:__main__:Starting MIPROv2 optimization with 50 trials
+INFO:__main__:
+Optimizing module: text_extractor
+INFO:__main__:
+Optimizing module: code_generator
+INFO:__main__:
+Optimizing module: reasoner
+INFO:__main__:
+MIPROv2 optimization complete
+INFO:__main__:
+--- Run 2/3 ---
+INFO:__main__:Starting MIPROv2 optimization with 50 trials
+INFO:__main__:
+Optimizing module: text_extractor
+INFO:__main__:
+Optimizing module: code_generator
+INFO:__main__:
+Optimizing module: reasoner
+INFO:__main__:
+MIPROv2 optimization complete
+INFO:__main__:
+--- Run 3/3 ---
+INFO:__main__:Starting MIPROv2 optimization with 50 trials
+INFO:__main__:
+Optimizing module: text_extractor
+INFO:__main__:
+Optimizing module: code_generator
+INFO:__main__:
+Optimizing module: reasoner
+INFO:__main__:
+MIPROv2 optimization complete
+
+============================================================
+MIPROv2 OPTIMIZATION REPORT
+============================================================
+
+Performance Summary:
+  Mean Best Score: 0.9564
+  Std Best Score: 0.0315
+  Mean Time: 0.20s
+INFO:__main__:
+Results saved to miprov2_updated_results.json
